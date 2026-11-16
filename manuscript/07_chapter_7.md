@@ -6,7 +6,7 @@ The mess hall was located in the basement of the West Wing, directly underneath 
 
 To receive food in Amna Hall, you did not use cash.
 
-Cash allows for market competition. In Amna Hall, the administration operated a closed command economy designed to extract the maximum revenue from the poorest students while guaranteeing a fifty percent profit margin for the private catering contractor.
+Cash allows for market competition. In Amna Hall, the administration ran a closed racket designed to extract the maximum revenue from the poorest students while guaranteeing a fifty percent profit margin for the private catering contractor.
 
 The contractor was a man named Haji Manzoor.
 

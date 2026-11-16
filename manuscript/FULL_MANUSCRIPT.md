@@ -1632,7 +1632,7 @@ The mess hall was located in the basement of the West Wing, directly underneath 
 
 To receive food in Amna Hall, you did not use cash.
 
-Cash allows for market competition. In Amna Hall, the administration operated a closed command economy designed to extract the maximum revenue from the poorest students while guaranteeing a fifty percent profit margin for the private catering contractor.
+Cash allows for market competition. In Amna Hall, the administration ran a closed racket designed to extract the maximum revenue from the poorest students while guaranteeing a fifty percent profit margin for the private catering contractor.
 
 The contractor was a man named Haji Manzoor.
 
@@ -2344,7 +2344,7 @@ And when we raised our cups, our heads were held so high that our necks did not 
 
 ---
 
-The psychological aftermath of Sidra's extraction reverberated through Amna Hall for weeks like an underground seismic tremor.
+The shockwaves of Sidra leaving Amna Hall rippled through Amna Hall for weeks like an underground seismic tremor.
 
 In the days that followed, the hostel administration was paralyzed by bureaucratic fear.
 
@@ -2388,7 +2388,7 @@ They watched her with wide, reverent eyes, seeing for the first time in their li
 
 Sidra had not just saved herself.
 
-She had shattered the myth of female helplessness inside Amna Hall.
+She had torn right through the myth that girls could not protect themselves inside Amna Hall.
 
 ### The Strategist's Margin: Tactical Protocols for Daring Women
 

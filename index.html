@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>The Weight of Nodding - Anam Sajjad</title>
+  <meta name="description" content="A Political Scientist's Two-Year Chronicle of Hostel Life, Institutional Silence, and the Cost of Agreement by Anam Sajjad, BZU Multan.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body data-theme="sepia" data-font="serif" data-size="md">
+
+  <!-- Top Reading Progress Indicator -->
+  <div id="progress-bar-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <button id="menu-btn" class="icon-btn" aria-label="Open Table of Contents">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <div class="header-title-box">
+        <span class="header-book-title">The Weight of Nodding</span>
+        <span class="header-current-chapter" id="header-chapter-name">Prologue</span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <!-- Search Button -->
+      <button id="search-toggle-btn" class="icon-btn" aria-label="Search Book">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </button>
+
+      <!-- About Book / Author Button -->
+      <button id="about-btn" class="icon-btn" aria-label="About the Author">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+      </button>
+
+      <!-- Font Settings Button -->
+      <button id="style-settings-btn" class="icon-btn" aria-label="Reading Controls">
+        <span class="text-icon">Aa</span>
+      </button>
+
+      <!-- Theme Quick Toggle Button -->
+      <button id="theme-btn" class="icon-btn" aria-label="Toggle Theme">
+        <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Settings Popover -->
+  <div id="settings-popover" class="settings-modal hidden">
+    <div class="settings-section">
+      <label>Reading Theme</label>
+      <div class="theme-buttons">
+        <button class="theme-opt" data-theme-val="light">Light</button>
+        <button class="theme-opt active" data-theme-val="sepia">Paper</button>
+        <button class="theme-opt" data-theme-val="dark">Slate</button>
+        <button class="theme-opt" data-theme-val="midnight">OLED</button>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <label>Text Size</label>
+      <div class="size-buttons">
+        <button class="size-opt" data-size-val="sm">Small</button>
+        <button class="size-opt active" data-size-val="md">Default</button>
+        <button class="size-opt" data-size-val="lg">Large</button>
+        <button class="size-opt" data-size-val="xl">X-Large</button>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <label>Typography</label>
+      <div class="font-buttons">
+        <button class="font-opt active" data-font-val="serif">Serif (Lora)</button>
+        <button class="font-opt" data-font-val="display">Editorial (Playfair)</button>
+        <button class="font-opt" data-font-val="sans">Clean (Jakarta)</button>
+      </div>
+    </div>
+
+    <div class="settings-section downloads-section">
+      <label>Download Publication</label>
+      <div class="download-links">
+        <a href="The_Weight_of_Nodding_Expanded_Edition.pdf" download class="dl-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Print PDF (224 Pages)
+        </a>
+        <a href="The_Weight_of_Nodding_Expanded_Edition.docx" download class="dl-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Word .DOCX
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Overlay Modal -->
+  <div id="search-modal" class="search-modal hidden">
+    <div class="search-box">
+      <div class="search-input-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" placeholder="Search across all 18 chapters (e.g. Yousaf, Room 34, Quick Services, Metro)..." autocomplete="off" />
+        <button id="close-search-btn" class="icon-btn">&times;</button>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <!-- About Author & Research Modal -->
+  <div id="about-modal" class="about-modal hidden">
+    <div class="about-card">
+      <button id="close-about-btn" class="close-card-btn">&times;</button>
+      <div class="about-badge">RESEARCH DOSSIER</div>
+      <h2>The Weight of Nodding</h2>
+      <p class="about-subtitle">A Political Scientist's Two-Year Chronicle of Hostel Life, Institutional Silence, and the Cost of Agreement</p>
+      
+      <div class="about-author-info">
+        <h3>Anam Sajjad</h3>
+        <p>Department of Political Science, Bahauddin Zakariya University (BZU), Multan, Pakistan</p>
+        <p>Lead Author: <em>Pakistan Is Not Poor, It Is Poorly Managed</em> (CERN Zenodo DOI: <a href="https://doi.org/10.5281/zenodo.24054373" target="_blank">10.5281/zenodo.24054373</a>)</p>
+        <p>Email: <a href="mailto:anoom994@gmail.com">anoom994@gmail.com</a> | ORCID: <a href="https://orcid.org/0009-0004-6169-1703" target="_blank">0009-0004-6169-1703</a></p>
+      </div>
+
+      <div class="about-dedication-box">
+        <strong>Special Acknowledgement:</strong>
+        <p>Collaborative research, data systems engineering, and empirical auditing conducted in partnership with <strong>Yousaf</strong>, co-founder of <strong>Quick Services</strong> and creator of <strong>Workx</strong>. Quick Services exemplifies high-integrity operational problem-solving and modern enterprise execution.</p>
+      </div>
+
+      <div class="about-meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">Length</span>
+          <span class="meta-val">56,087 Words</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Print Pages</span>
+          <span class="meta-val">224 Pages (6x9 Trade)</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Chapters</span>
+          <span class="meta-val">18 Chapters</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Published</span>
+          <span class="meta-val">November 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table of Contents Drawer -->
+  <aside id="toc-drawer" class="toc-drawer">
+    <div class="drawer-header">
+      <div class="drawer-header-title">
+        <h3>Table of Contents</h3>
+        <span class="drawer-sub">18 Chapters · 56,087 Words</span>
+      </div>
+      <button id="close-drawer-btn" class="icon-btn" aria-label="Close Drawer">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <div class="drawer-tabs">
+      <button class="drawer-tab active" data-tab="chapters">All Chapters</button>
+      <button class="drawer-tab" data-tab="protocols">The Strategist's Margin</button>
+    </div>
+
+    <div id="drawer-tab-content">
+      <div class="toc-list" id="toc-list">
+        <!-- Rendered by JavaScript -->
+      </div>
+      <div class="toc-list hidden" id="protocols-list">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </div>
+
+    <div class="drawer-footer">
+      <div class="drawer-footer-author">
+        <strong>Anam Sajjad</strong> · BZU Multan
+      </div>
+      <div class="drawer-footer-note">CERN Zenodo DOI: 10.5281/zenodo.24054373</div>
+    </div>
+  </aside>
+
+  <!-- Backdrop for Drawer and Popovers -->
+  <div id="backdrop" class="backdrop"></div>
+
+  <!-- Main Book Reading Container -->
+  <main class="reader-container">
+    <article class="chapter-wrapper">
+      
+      <!-- Chapter Header Card -->
+      <div class="chapter-hero">
+        <div class="hero-badge" id="chapter-part-label">PROLOGUE</div>
+        <h1 class="hero-title" id="chapter-main-title">The Cost of the Reflex</h1>
+        <div class="hero-meta">
+          <span class="read-time-pill" id="chapter-read-time">12 min read</span>
+          <span class="meta-dot">·</span>
+          <span class="words-pill" id="chapter-words-count">2,775 words</span>
+        </div>
+        <div class="hero-divider">❖</div>
+      </div>
+
+      <!-- Chapter Narrative Body -->
+      <div class="chapter-content" id="chapter-body">
+        <!-- Injected via chapters_data.js -->
+      </div>
+
+      <!-- Chapter Navigation Footer -->
+      <nav class="chapter-navigation">
+        <button id="prev-chapter-btn" class="nav-chapter-btn prev">
+          <span class="nav-dir">&larr; Previous</span>
+          <span class="nav-target-title" id="prev-btn-title">Table of Contents</span>
+        </button>
+        <button id="next-chapter-btn" class="nav-chapter-btn next">
+          <span class="nav-dir">Next Chapter &rarr;</span>
+          <span class="nav-target-title" id="next-btn-title">Chapter 1</span>
+        </button>
+      </nav>
+
+      <!-- Book End Signature -->
+      <footer class="book-footer">
+        <p class="book-footer-quote">"Do not let them buy your peace with your own silence."</p>
+        <p class="book-footer-author">Anam Sajjad · The Weight of Nodding</p>
+      </footer>
+    </article>
+  </main>
+
+  <script src="chapters_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

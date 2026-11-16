@@ -343,7 +343,8 @@ def create_book_document():
         import win32com.client
         word = win32com.client.DispatchEx("Word.Application")
         word.Visible = False
-        doc_com = word.Documents.Open(os.path.abspath(docx_file))
+        word.DisplayAlerts = 0
+        doc_com = word.Documents.Open(os.path.abspath(docx_file), ReadOnly=True)
         # 17 represents wdExportFormatPDF
         doc_com.ExportAsFixedFormat(os.path.abspath(pdf_file), 17)
         doc_com.Close(False)

@@ -172,7 +172,7 @@ And when we raised our cups, our heads were held so high that our necks did not 
 
 ---
 
-The psychological aftermath of Sidra's extraction reverberated through Amna Hall for weeks like an underground seismic tremor.
+The shockwaves of Sidra leaving Amna Hall rippled through Amna Hall for weeks like an underground seismic tremor.
 
 In the days that followed, the hostel administration was paralyzed by bureaucratic fear.
 
@@ -216,7 +216,7 @@ They watched her with wide, reverent eyes, seeing for the first time in their li
 
 Sidra had not just saved herself.
 
-She had shattered the myth of female helplessness inside Amna Hall.
+She had torn right through the myth that girls could not protect themselves inside Amna Hall.
 
 ### The Strategist's Margin: Tactical Protocols for Daring Women
 

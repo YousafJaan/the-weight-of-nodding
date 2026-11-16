@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>رجاء: ایک بیٹی کی سچی آپ بیتی - انعم سجاد</title>
+  <meta name="description" content="ماؤں کے دکھ، اپنوں کا وار اور قرآن کا سہارا۔ بہاء الدین زکریا یونیورسٹی ملتان کے ہوسٹل سے لے کر قومی اعزاز تک ایک بیٹی کی خود نوشت آپ بیتی۔">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --font-nastaleeq: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Gulzar', serif;
+      --font-arabic: 'Amiri', serif;
+      --font-ui: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --drawer-width: 380px;
+    }
+
+    /* Sepia / Paper Theme (Default) */
+    body[data-theme="sepia"] {
+      --bg-primary: #fcf8f0;
+      --bg-surface: #f4ecdc;
+      --bg-surface-elevated: #ede2cd;
+      --bg-popover: #fbf5e7;
+      --text-primary: #282018;
+      --text-secondary: #5e5244;
+      --text-muted: #8c7e6e;
+      --border-light: rgba(94, 82, 68, 0.15);
+      --border-strong: rgba(94, 82, 68, 0.35);
+      --accent: #10559a;
+      --accent-hover: #0c437a;
+      --accent-light: rgba(16, 85, 154, 0.1);
+      --progress-bg: #10559a;
+      --card-bg: rgba(244, 236, 220, 0.8);
+      --shadow: 0 4px 20px rgba(70, 50, 30, 0.08);
+    }
+
+    /* Light Theme */
+    body[data-theme="light"] {
+      --bg-primary: #ffffff;
+      --bg-surface: #f8fafc;
+      --bg-surface-elevated: #f1f5f9;
+      --bg-popover: #ffffff;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --border-light: rgba(15, 23, 42, 0.08);
+      --border-strong: rgba(15, 23, 42, 0.2);
+      --accent: #1e40af;
+      --accent-hover: #1d4ed8;
+      --accent-light: rgba(30, 64, 175, 0.08);
+      --progress-bg: #1e40af;
+      --card-bg: #f8fafc;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Dark Theme */
+    body[data-theme="dark"] {
+      --bg-primary: #0f172a;
+      --bg-surface: #1e293b;
+      --bg-surface-elevated: #334155;
+      --bg-popover: #1e293b;
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --border-light: rgba(255, 255, 255, 0.1);
+      --border-strong: rgba(255, 255, 255, 0.25);
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --accent-light: rgba(56, 189, 248, 0.15);
+      --progress-bg: #38bdf8;
+      --card-bg: #1e293b;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-nastaleeq);
+      font-size: 19px;
+      line-height: 2.3;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      min-height: 100vh;
+      overflow-x: hidden;
+      direction: rtl;
+      text-align: right;
+    }
+
+    /* Font size variations */
+    body[data-size="sm"] .reading-content { font-size: 17px; line-height: 2.1; }
+    body[data-size="md"] .reading-content { font-size: 20px; line-height: 2.35; }
+    body[data-size="lg"] .reading-content { font-size: 23px; line-height: 2.5; }
+    body[data-size="xl"] .reading-content { font-size: 26px; line-height: 2.7; }
+
+    /* Progress bar */
+    #progress-bar-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: transparent;
+      z-index: 1000;
+    }
+    #progress-bar {
+      height: 100%;
+      width: 0%;
+      background: var(--progress-bg);
+      transition: width 0.1s linear;
+    }
+
+    /* Header */
+    .app-header {
+      position: sticky;
+      top: 0;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-light);
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 500;
+      backdrop-filter: blur(10px);
+    }
+    .header-right-side {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .icon-btn {
+      background: transparent;
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-ui);
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .icon-btn:hover {
+      background: var(--bg-surface-elevated);
+      border-color: var(--border-strong);
+    }
+    .header-titles {
+      display: flex;
+      flex-direction: column;
+    }
+    .novel-title {
+      font-weight: 700;
+      font-size: 17px;
+      color: var(--accent);
+      line-height: 1.4;
+    }
+    .current-chapter-title {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+    .header-left-side {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Book switcher pill */
+    .switch-pill {
+      background: var(--accent-light);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-family: var(--font-ui);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .switch-pill:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* Main Container */
+    .reader-container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 24px 100px;
+    }
+
+    /* Chapter Header Card */
+    .chapter-header {
+      text-align: center;
+      padding: 30px 20px 25px;
+      margin-bottom: 35px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-light);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+    .season-badge {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      font-family: var(--font-ui);
+    }
+    .episode-h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+    .episode-sub {
+      font-size: 18px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .synopsis-box {
+      background: var(--bg-surface);
+      border-right: 4px solid var(--accent);
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-size: 16px;
+      color: var(--text-secondary);
+      text-align: right;
+      line-height: 2.1;
+      margin-top: 14px;
+    }
+
+    /* Reading Content */
+    .reading-content p {
+      margin-bottom: 24px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    /* Navigation Footer */
+    .chapter-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 60px;
+      padding-top: 25px;
+      border-top: 1px solid var(--border-light);
+    }
+    .nav-btn {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-family: var(--font-nastaleeq);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.2s ease;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* Drawer / Table of Contents */
+    .drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 900;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .drawer-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: var(--drawer-width);
+      max-width: 90vw;
+      height: 100vh;
+      background: var(--bg-surface);
+      border-left: 1px solid var(--border-light);
+      z-index: 950;
+      display: flex;
+      flex-direction: column;
+      transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
+    }
+    .drawer.active {
+      right: 0;
+    }
+    .drawer-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border-light);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .drawer-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .drawer-search {
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border-light);
+    }
+    .search-input {
+      width: 100%;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border-light);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-nastaleeq);
+      font-size: 16px;
+      direction: rtl;
+    }
+    .drawer-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px 0;
+    }
+    .season-group-title {
+      padding: 12px 20px 6px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-muted);
+      font-family: var(--font-ui);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .toc-item {
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(0,0,0,0.03);
+      transition: background 0.15s ease;
+    }
+    .toc-item:hover {
+      background: var(--bg-surface-elevated);
+    }
+    .toc-item.active {
+      background: var(--accent-light);
+      border-right: 4px solid var(--accent);
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .toc-item-title {
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    .toc-item-time {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: var(--font-ui);
+    }
+
+    /* Settings Modal / Menu */
+    .settings-popover {
+      position: absolute;
+      top: 60px;
+      left: 20px;
+      background: var(--bg-popover);
+      border: 1px solid var(--border-strong);
+      border-radius: 12px;
+      padding: 16px;
+      width: 280px;
+      box-shadow: var(--shadow);
+      display: none;
+      z-index: 600;
+      direction: rtl;
+    }
+    .settings-popover.active { display: block; }
+    .settings-group { margin-bottom: 14px; }
+    .settings-label {
+      font-size: 14px;
+      font-family: var(--font-ui);
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      display: block;
+    }
+    .theme-buttons, .size-buttons {
+      display: flex;
+      gap: 6px;
+    }
+    .theme-btn, .size-btn {
+      flex: 1;
+      padding: 6px 0;
+      text-align: center;
+      border-radius: 6px;
+      border: 1px solid var(--border-light);
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      font-size: 13px;
+      font-family: var(--font-ui);
+      cursor: pointer;
+    }
+    .theme-btn.active, .size-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Download banner */
+    .download-strip {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 14px 20px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .dl-label {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .dl-buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .dl-pill {
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: var(--font-ui);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.2s;
+    }
+    .dl-pill:hover { opacity: 0.9; }
+
+    @media (max-width: 600px) {
+      .episode-h1 { font-size: 25px; }
+      .app-header { padding: 10px 14px; }
+      .reader-container { padding: 20px 14px 60px; }
+    }
+  </style>
+</head>
+<body data-theme="sepia" data-size="md">
+
+  <!-- Top Progress Bar -->
+  <div id="progress-bar-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-right-side">
+      <button id="toc-btn" class="icon-btn" aria-label="فہرستِ اقساط">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        <span>فہرست</span>
+      </button>
+      <div class="header-titles">
+        <span class="novel-title">رجاء: ایک بیٹی کی سچی آپ بیتی</span>
+        <span class="current-chapter-title" id="header-chapter-name">قسط 1: بوسن روڈ کی دہلیز</span>
+      </div>
+    </div>
+
+    <div class="header-left-side">
+      <!-- Standalone Novel Reader -->
+      <span class="switch-pill" style="border:none; background:transparent; font-size:15px; font-weight:700;">ادبی شاہکار ایڈیشن</span>
+
+      <!-- Settings Menu Button -->
+      <button id="settings-btn" class="icon-btn" aria-label="ترتیبات">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Settings Popover -->
+  <div id="settings-popover" class="settings-popover">
+    <div class="settings-group">
+      <span class="settings-label">تھیم (Theme)</span>
+      <div class="theme-buttons">
+        <button class="theme-btn active" data-theme="sepia">پوستینی</button>
+        <button class="theme-btn" data-theme="light">روشن</button>
+        <button class="theme-btn" data-theme="dark">شبینہ</button>
+      </div>
+    </div>
+    <div class="settings-group">
+      <span class="settings-label">فونٹ کا سائز (Font Size)</span>
+      <div class="size-buttons">
+        <button class="size-btn" data-size="sm">چھوٹا</button>
+        <button class="size-btn active" data-size="md">درمیانہ</button>
+        <button class="size-btn" data-size="lg">بڑا</button>
+        <button class="size-btn" data-size="xl">بہت بڑا</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table of Contents Drawer -->
+  <div id="drawer-overlay" class="drawer-overlay"></div>
+  <aside id="drawer" class="drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">فہرستِ اقساط (33 اقساط)</span>
+      <button id="close-drawer-btn" class="icon-btn" aria-label="بند کریں">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="drawer-search">
+      <input type="text" id="drawer-search-input" class="search-input" placeholder="اقساط میں تلاش کریں...">
+    </div>
+    <div id="toc-list" class="drawer-content">
+      <!-- Dynamic TOC Items Loaded by JS -->
+    </div>
+  </aside>
+
+  <!-- Reading View -->
+  <main class="reader-container">
+    <div class="chapter-header">
+      <span class="season-badge" id="episode-season-badge">سیزن 1: دہلیز اور بیڑیاں</span>
+      <h1 class="episode-h1" id="episode-title">بوسن روڈ کی دہلیز</h1>
+      <div class="episode-sub" id="episode-subtitle">گھر کا آنگن، سامان کی پیٹی اور ملتان کی دھوپ</div>
+      <div class="synopsis-box" id="episode-synopsis"></div>
+    </div>
+
+    <article class="reading-content" id="reading-content">
+      <!-- Injected Paragraphs -->
+    </article>
+
+    <!-- Navigation Buttons -->
+    <div class="chapter-nav">
+      <button id="next-ep-btn" class="nav-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        <span>اگلی قسط</span>
+      </button>
+
+      <span id="reading-position-indicator" style="font-family: var(--font-ui); font-size: 14px; color: var(--text-muted);">1 / 33</span>
+
+      <button id="prev-ep-btn" class="nav-btn" disabled>
+        <span>پچھلی قسط</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+    </div>
+
+    <!-- Download Options Strip -->
+    <div class="download-strip">
+      <div class="dl-label">مکمل کتاب ڈاؤن لوڈ کریں:</div>
+      <div class="dl-buttons">
+        <a href="../Rija_Ek_Beti_Ki_Sachi_Aap_Beeti_Complete_Edition.docx" class="dl-pill" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Word فائل (.docx)</span>
+        </a>
+        <a href="../Rija_Ek_Beti_Ki_Sachi_Aap_Beeti_Complete_Edition.pdf" class="dl-pill" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>PDF فائل</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Load Data and Logic -->
+  <script src="novel_data.js"></script>
+  <script>
+    // State
+    let currentEpisodeIndex = 0;
+
+    // Elements
+    const progressBar = document.getElementById('progress-bar');
+    const tocBtn = document.getElementById('toc-btn');
+    const closeDrawerBtn = document.getElementById('close-drawer-btn');
+    const drawerOverlay = document.getElementById('drawer-overlay');
+    const drawer = document.getElementById('drawer');
+    const tocList = document.getElementById('toc-list');
+    const drawerSearchInput = document.getElementById('drawer-search-input');
+    
+    const settingsBtn = document.getElementById('settings-btn');
+    const settingsPopover = document.getElementById('settings-popover');
+    
+    const headerChapterName = document.getElementById('header-chapter-name');
+    const episodeSeasonBadge = document.getElementById('episode-season-badge');
+    const episodeTitle = document.getElementById('episode-title');
+    const episodeSubtitle = document.getElementById('episode-subtitle');
+    const episodeSynopsis = document.getElementById('episode-synopsis');
+    const readingContent = document.getElementById('reading-content');
+    
+    const prevEpBtn = document.getElementById('prev-ep-btn');
+    const nextEpBtn = document.getElementById('next-ep-btn');
+    const readingPositionIndicator = document.getElementById('reading-position-indicator');
+
+    // Build Table of Contents
+    function renderTOC(filterText = '') {
+      tocList.innerHTML = '';
+      let lastSeason = 0;
+      
+      NOVEL_CHAPTERS.forEach((ep, index) => {
+        if (filterText) {
+          const query = filterText.toLowerCase();
+          const match = ep.title.toLowerCase().includes(query) || 
+                        ep.subtitle.toLowerCase().includes(query) || 
+                        ep.content.toLowerCase().includes(query);
+          if (!match) return;
+        }
+
+        if (ep.season !== lastSeason && !filterText) {
+          lastSeason = ep.season;
+          const seasonTitle = document.createElement('div');
+          seasonTitle.className = 'season-group-title';
+          seasonTitle.textContent = ep.season_name;
+          tocList.appendChild(seasonTitle);
+        }
+
+        const item = document.createElement('div');
+        item.className = `toc-item ${index === currentEpisodeIndex ? 'active' : ''}`;
+        item.innerHTML = `
+          <div class="toc-item-title">قسط ${ep.id}: ${ep.title}</div>
+          <div class="toc-item-time">${ep.reading_time}</div>
+        `;
+        item.addEventListener('click', () => {
+          loadEpisode(index);
+          closeDrawer();
+        });
+        tocList.appendChild(item);
+      });
+    }
+
+    // Load Episode
+    function loadEpisode(index) {
+      if (index < 0 || index >= NOVEL_CHAPTERS.length) return;
+      currentEpisodeIndex = index;
+      const ep = NOVEL_CHAPTERS[index];
+
+      headerChapterName.textContent = `قسط ${ep.id}: ${ep.title}`;
+      episodeSeasonBadge.textContent = ep.season_name;
+      episodeTitle.textContent = ep.title;
+      episodeSubtitle.textContent = ep.subtitle;
+      episodeSynopsis.textContent = ep.synopsis;
+
+      // Render paragraphs
+      readingContent.innerHTML = '';
+      const paragraphs = ep.content.split('\n');
+      paragraphs.forEach(p => {
+        const trimmed = p.trim();
+        if (trimmed) {
+          const pEl = document.createElement('p');
+          pEl.textContent = trimmed;
+          readingContent.appendChild(pEl);
+        }
+      });
+
+      // Update buttons
+      prevEpBtn.disabled = index === 0;
+      nextEpBtn.disabled = index === NOVEL_CHAPTERS.length - 1;
+      readingPositionIndicator.textContent = `${index + 1} / ${NOVEL_CHAPTERS.length}`;
+
+      renderTOC();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      localStorage.setItem('rija_current_ep', index);
+    }
+
+    // Reading Progress Listener
+    window.addEventListener('scroll', () => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrolled = window.scrollY;
+      const pct = docHeight > 0 ? (scrolled / docHeight) * 100 : 0;
+      progressBar.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+    });
+
+    // Drawer Controls
+    function openDrawer() {
+      drawer.classList.add('active');
+      drawerOverlay.classList.add('active');
+    }
+    function closeDrawer() {
+      drawer.classList.remove('active');
+      drawerOverlay.classList.remove('active');
+    }
+    tocBtn.addEventListener('click', openDrawer);
+    closeDrawerBtn.addEventListener('click', closeDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+
+    // Search input
+    drawerSearchInput.addEventListener('input', (e) => {
+      renderTOC(e.target.value.trim());
+    });
+
+    // Settings Menu
+    settingsBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      settingsPopover.classList.toggle('active');
+    });
+    document.addEventListener('click', (e) => {
+      if (!settingsPopover.contains(e.target) && e.target !== settingsBtn) {
+        settingsPopover.classList.remove('active');
+      }
+    });
+
+    // Theme Switchers
+    document.querySelectorAll('.theme-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.theme-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const theme = btn.dataset.theme;
+        document.body.dataset.theme = theme;
+        localStorage.setItem('rija_theme', theme);
+      });
+    });
+
+    // Font Size Switchers
+    document.querySelectorAll('.size-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const size = btn.dataset.size;
+        document.body.dataset.size = size;
+        localStorage.setItem('rija_font_size', size);
+      });
+    });
+
+    // Navigation buttons
+    prevEpBtn.addEventListener('click', () => {
+      if (currentEpisodeIndex > 0) loadEpisode(currentEpisodeIndex - 1);
+    });
+    nextEpBtn.addEventListener('click', () => {
+      if (currentEpisodeIndex < NOVEL_CHAPTERS.length - 1) loadEpisode(currentEpisodeIndex + 1);
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') { // In RTL, ArrowLeft goes forward
+        if (currentEpisodeIndex < NOVEL_CHAPTERS.length - 1) loadEpisode(currentEpisodeIndex + 1);
+      } else if (e.key === 'ArrowRight') { // In RTL, ArrowRight goes backward
+        if (currentEpisodeIndex > 0) loadEpisode(currentEpisodeIndex - 1);
+      }
+    });
+
+    // Initialize from storage or default
+    const savedEp = parseInt(localStorage.getItem('rija_current_ep') || '0', 10);
+    const savedTheme = localStorage.getItem('rija_theme') || 'sepia';
+    const savedSize = localStorage.getItem('rija_font_size') || 'md';
+
+    document.body.dataset.theme = savedTheme;
+    document.body.dataset.size = savedSize;
+
+    document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.theme === savedTheme));
+    document.querySelectorAll('.size-btn').forEach(b => b.classList.toggle('active', b.dataset.size === savedSize));
+
+    renderTOC();
+    loadEpisode(savedEp);
+  </script>
+</body>
+</html>

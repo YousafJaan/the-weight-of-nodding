@@ -11,6 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
+    @font-face {
+      font-family: 'Jameel Noori Nastaleeq';
+      src: local('Jameel Noori Nastaleeq'), local('JameelNooriNastaleeq'),
+           url('https://cdn.jsdelivr.net/gh/m-bilalkhan/urdu-fonts@main/fonts/Jameel%20Noori%20Nastaleeq.ttf') format('truetype');
+      font-display: swap;
+    }
+
     :root {
       --font-nastaleeq: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Gulzar', serif;
       --font-arabic: 'Amiri', serif;
@@ -77,35 +84,61 @@
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
-      background-color: var(--bg-primary);
-      color: var(--text-primary);
-      font-family: var(--font-nastaleeq);
-      font-size: 19px;
-      line-height: 2.3;
-      transition: background-color 0.3s ease, color 0.3s ease;
-      min-height: 100vh;
-      overflow-x: hidden;
+    html {
       direction: rtl;
       text-align: right;
     }
 
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-nastaleeq);
+      font-size: 21px;
+      line-height: 2.8;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      min-height: 100vh;
+      overflow-x: hidden;
+      direction: rtl !important;
+      text-align: right !important;
+    }
+
     /* Font size variations */
-    body[data-size="sm"] .reading-content { font-size: 17px; line-height: 2.1; }
-    body[data-size="md"] .reading-content { font-size: 20px; line-height: 2.35; }
-    body[data-size="lg"] .reading-content { font-size: 23px; line-height: 2.5; }
-    body[data-size="xl"] .reading-content { font-size: 26px; line-height: 2.7; }
+    body[data-size="sm"] .reading-content p { font-size: 18px; line-height: 2.6; }
+    body[data-size="md"] .reading-content p { font-size: 21px; line-height: 2.85; }
+    body[data-size="lg"] .reading-content p { font-size: 24px; line-height: 3.0; }
+    body[data-size="xl"] .reading-content p { font-size: 27px; line-height: 3.2; }
 
     /* Layout variations */
+    body[data-layout="single"] .reader-container {
+      max-width: 860px;
+    }
+    body[data-layout="two-col"] .reader-container {
+      max-width: 1160px;
+    }
     body[data-layout="two-col"] .reading-content {
       column-count: 2;
-      column-gap: 40px;
+      column-gap: 52px;
       column-rule: 1px solid var(--border-light);
-      text-align: justify;
+      direction: rtl !important;
+      text-align: justify !important;
+      text-align-last: right !important;
     }
-    @media (max-width: 820px) {
+    body[data-layout="two-col"] .reading-content p {
+      break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 20px;
+      line-height: 2.75;
+      text-indent: 2.2em;
+      text-align: justify !important;
+      text-align-last: right !important;
+    }
+    @media (max-width: 860px) {
       body[data-layout="two-col"] .reading-content {
         column-count: 1;
+      }
+      body[data-layout="two-col"] .reader-container {
+        max-width: 860px;
       }
     }
 
@@ -207,9 +240,12 @@
 
     /* Main Container */
     .reader-container {
-      max-width: 820px;
+      max-width: 860px;
       margin: 0 auto;
       padding: 40px 24px 100px;
+      direction: rtl !important;
+      text-align: right !important;
+      transition: max-width 0.3s ease;
     }
 
     /* Chapter Header Card */
@@ -259,10 +295,24 @@
     }
 
     /* Reading Content */
+    .reading-content {
+      direction: rtl !important;
+      text-align: right !important;
+      unicode-bidi: isolate;
+      width: 100%;
+    }
     .reading-content p {
-      margin-bottom: 24px;
-      text-align: justify;
-      text-justify: inter-word;
+      direction: rtl !important;
+      text-align: justify !important;
+      text-align-last: right !important;
+      unicode-bidi: isolate;
+      font-family: var(--font-nastaleeq);
+      font-size: 21px;
+      line-height: 2.85;
+      letter-spacing: 0;
+      word-spacing: 1px;
+      margin-bottom: 26px;
+      text-indent: 2.8em; /* The hallmark of authentic Urdu literary fiction */
     }
 
     /* Navigation Footer */
@@ -494,7 +544,7 @@
     }
   </style>
 </head>
-<body data-theme="sepia" data-size="md">
+<body data-theme="sepia" data-size="md" data-layout="single" dir="rtl">
 
   <!-- Top Progress Bar -->
   <div id="progress-bar-container">
@@ -546,7 +596,7 @@
     <div class="settings-group">
       <span class="settings-label">طرزِ مطالعہ (Reading Layout)</span>
       <div class="layout-buttons">
-        <button class="layout-btn active" data-layout="single">ایک کالم</button>
+        <button class="layout-btn active" data-layout="single">کتابی ورق (روانی)</button>
         <button class="layout-btn" data-layout="two-col">دو کالم (ڈائجسٹ)</button>
       </div>
     </div>
@@ -703,14 +753,14 @@
       episodeSubtitle.textContent = ep.subtitle;
       episodeSynopsis.textContent = ep.synopsis;
 
-      // Render paragraphs
+      // Render rich literary paragraphs (split strictly on double newlines)
       readingContent.innerHTML = '';
-      const paragraphs = ep.content.split('\n');
-      paragraphs.forEach(p => {
-        const trimmed = p.trim();
-        if (trimmed) {
+      const rawParas = ep.content.split(/\n\s*\n/);
+      rawParas.forEach(raw => {
+        const clean = raw.replace(/\r?\n/g, ' ').replace(/\s+/g, ' ').trim();
+        if (clean && !clean.startsWith('◆') && !clean.startsWith('---') && !clean.startsWith('#')) {
           const pEl = document.createElement('p');
-          pEl.textContent = trimmed;
+          pEl.textContent = clean;
           readingContent.appendChild(pEl);
         }
       });

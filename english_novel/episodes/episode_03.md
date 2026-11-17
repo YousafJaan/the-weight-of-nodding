@@ -1,43 +1,84 @@
 # Episode 03: The Warden's Whistle and The Electric Kettle
-### Winter Fog, Contraband Coils, and The Gate-Pass Tribunal
+### The Cold Water War, The Contraband Coil, and The Midnight Inspection
 
-**Season 1 : The Sanctuary and the Iron Gate** | Words: 869
+**Season 1 : The Sanctuary and the Iron Gate** | Words: 1,085
 
-> **Synopsis:** As winter descends on Multan, the residents of Room 42 navigate freezing conditions and arbitrary hostel bans, building a clandestine survival system while facing administrative humiliation at the main gate.
+> **Synopsis:** When a brutal winter freezes the hostel pipelines, Room 42 risks expulsion to run a contraband electric kettle for a sick sister, leading to a heart-stopping midnight confrontation with Warden Miss Nazia.
 
 ---
 
-By mid-December, the blistering heat of Southern Punjab had evaporated, replaced by a dense, bone-chilling winter fog that rolled across the sugarcane fields and swallowed Bosan Road in a white, blinding shroud. The temperature plummeted into the single digits, and the aged red-brick walls of Aisha Hall, designed to dissipate heat, now transformed the interior into an unheated stone crypt.
+By late November, the suffocating heatwaves of Multan had vanished, replaced by an icy, piercing continental chill that rolled down from the northern mountains across the plains of Punjab.
  
-The hostel taps yielded water so frigid that washing one's face felt like plunging flesh into crushed ice. Yet, by decree of the Chief Warden's office, all high-voltage electrical heating appliances : immersion rods, electric heaters, and kettles : were strictly outlawed under threat of a three-thousand-rupee fine and immediate eviction. The official rationale was 'fire safety', but every student knew the truth : the administration refused to pay the winter electricity surcharge to the utility company.
+In Aisha Hall, winter was not a season; it was an ordeal of endurance.
  
-Inside Room 42, we were shivering uncontrollably. Saba's fingers had swollen with painful, purplish chilblains, making it nearly impossible for her to grip her pen during morning lectures.
+The cavernous red-brick building had no heating infrastructure. The concrete floors turned into slabs of freezing ice, and the water flowing through the ancient iron pipelines became so painfully cold that touching the tap felt like pressing a razor blade against bare flesh.
  
-"We cannot survive January like this," Sara declared one evening, pulling an oversized woolen shawl over her shoulders. "Tomorrow, Rija and I are going to the electronic bazaar in Hussain Agahi."
+Yet the hostel administration under Warden Miss Nazia enforced a regime of draconian austerity.
  
-The expedition required smuggling a five-hundred-watt brass immersion rod past the security post at the main portal. Sara wrapped the metal coil in three layers of old newspaper and concealed it inside the hollow lining of my winter coat. My heart pounded furiously against my ribs as we approached the security desk, but the aging guard was busy slurping hot soup from an aluminum bowl and barely glanced at our student identity cards.
+Under Regulation 14 of the Hostel Code, all electric heating appliances : immersion rods, electric heaters, blowers, and kettles : were strictly outlawed. The official pretext was fire safety; the real reason was that the university administration refused to pay the winter electricity bills.
  
-Back inside Room 42, behind bolted doors and with heavy blankets draped over the windows to block any light leak, we inaugurated our clandestine heating station. We wedged an empty metal powdered-milk tin into the narrow alcove behind the wooden wardrobe, filled it with water, and plugged the immersion coil into an illicit wall socket whose safety plate Sara had bypassed with a butter knife.
+Anyone caught with a heating coil faced an instantaneous five-hundred-rupee fine, confiscation of the appliance, and a public notice posted on the dining hall noticeboard labeling the student a 'habitual violator of institutional discipline'.
  
-When the water began to bubble with a soft, comforting hiss, the four of us clustered around that tiny tin can like travelers around an oasis fire. When Anza dropped four teabags and a pinch of crushed cardamom into the boiling water, the fragrant steam that rose into the icy room felt like an act of triumphant rebellion. That hot brew, shared in chipped ceramic mugs in the dead of winter, was not merely tea; it was life itself.
+Every evening at seven sharp, Miss Nazia's brass whistle would pierce the freezing air of the corridors. She would march through the blocks accompanied by two burly female guards, pounding on doors, sniffing the air for the telltale scent of hot metal, and overturning plastic buckets in search of contraband.
 
-Yet, the hostel's administrative machinery found endless ways to strip away a young woman's dignity. The most humiliating daily gauntlet was the infamous 'Gate-Pass System'.
+In the second week of December, catastrophe struck Room 42.
  
-To step beyond the university gates for even two hours : whether to purchase prescribed textbooks, visit a medical laboratory, or submit photocopies : required an ordeal that resembled an interrogation before a military tribunal. One chilly Tuesday afternoon, I needed to visit the Central Post Office to mail my handwritten case notes to a research journal.
+Saba, who possessed no wool blankets and slept beneath two thin cotton quilts, caught a severe chest infection. By midnight, her teeth were chattering violently, her lips had turned an alarming shade of blue, and a dry, wracking cough shook her frail ribcage.
  
-I stood before Miss Nazia's mahogany desk in the administrative wing. The warden was scrutinizing my printed pass application through her spectacles as if hunting for hidden treason.
+"I cannot breathe, Rija," Saba wept in the dark, her small hands clutching my wrist like ice clamps. "My chest feels as if someone has poured boiling lead into my lungs. Please, just a sip of warm water..."
  
-"The Central Post Office?" she asked, raising a skeptical eyebrow. "Why can you not use the student post box inside the campus student center?"
-"Madam, the campus box is only cleared once a fortnight, and my research submission deadline expires on Thursday," I explained with quiet dignity.
+The communal boiler on the ground floor had run dry at eight in the evening. To obtain hot water legitimately required waiting until six the following morning, when the hostel mess staff lit the wood boilers.
  
-"Who is this supervisor you are corresponding with? Is he a male professor?" Her questions carried that toxic, unstated insinuation that perpetually haunted every female movement in Southern Punjab. "Girls from respectable rural families do not wander around the city's commercial centers on a weekday afternoon. Bring me a written authorization letter signed by your department head, or this slip remains unsigned."
+Anza stood up in the dark, pulled back the loose wooden floorboard beneath her cot, and brought out our greatest secret : a miniature, handheld electric immersion coil wrapped in electrical tape.
  
-A surge of burning anger rose from my stomach to my throat. I stood there in my worn black shoes, looking at this woman whose sole authority derived from policing the physical boundaries of young women who had never committed a crime.
+"If we get caught, Nazia will expel all four of us before dawn," Sara whispered from the desk, her voice tight with panic. "My father's honor cannot survive an expulsion notice!"
  
-"Madam," I said, looking directly into her eyes without lowering my gaze for the first time. "My department head, Dr. Masood, appointed me as a student researcher precisely because he values my intellectual capacity. If you suspect that a scientific paper on constitutional law is a cover for immoral behavior, I invite you to read the sixty pages currently in my bag."
+"Her lungs will collapse before dawn if we do not give her hot water," I replied firmly, taking the coil from Anza's hand. "Sara, stand by the door and listen for the key ring. Anza, get the steel jug."
+
+We plugged the crude heating coil into the cracked wall socket behind the wooden trunk, subverting the current with a bent copper wire.
  
-Miss Nazia's face flushed with sudden irritation at my composure. She signed the slip with a violent stroke of her red pen and slammed the stamp onto the carbon paper.
+Within ninety seconds, the water in the steel jug began to hiss and bubble. The comforting aroma of hot steam rose into the freezing air of Room 42, carrying the hope of relief for Saba's burning throat.
  
-"Take it!" she snapped. "And if you are not back inside this gate by four-thirty sharp, do not bother returning. Sleep on the pavement of Bosan Road!"
+Then, without warning, the sharp, metallic screech of a key sliding into the corridor lock sent ice through our veins!
  
-I took the stamped pass, turned on my heel, and walked out into the chilly winter air. As I passed through the iron gates and stepped onto the public road, I drew in a deep breath of the misty wind. The city outside was harsh, indifferent, and dangerous, but inside the hostel, the walls were suffocating the very soul. I knew then that every step toward freedom would require tearing through layers of suspicion and spite.
+*Tweet!*
+ 
+The deafening blast of Miss Nazia's brass whistle erupted right outside our door, followed by two violent, thunderous thumps against the wooden panel!
+ 
+"Open up! Room 42! Unscheduled inspection!" Miss Nazia's screeching voice echoed like a siren.
+ 
+Panic exploded in the room. The immersion coil was glowing cherry-red inside the boiling water, emitting a faint, unmistakable hum that could be heard through the door!
+ 
+With split-second presence of mind, Anza snatched the steel jug and dumped the boiling water straight into Saba's aluminum wash bucket, shoving the scalding coil into a cold wet towel.
+ 
+"Rija! The desk!" Sara hissed, her face white as chalk.
+ 
+I grabbed my heavy Political Science textbook, threw open the door just as Miss Nazia prepared to strike it with her heavy wooden clipboard, and stood squarely in the threshold, blocking the warden's view of the interior.
+
+Miss Nazia shoved past me into the room, her small, beady eyes darting across the cots like a hawk tracking prey. Her two guards stood in the doorway with flashlights, illuminating the dim corners.
+ 
+"What was that noise?" Miss Nazia snarled, her nostrils flaring as she sniffed the air. "I smell hot copper! Who has an immersion heater in this room?"
+ 
+She marched directly toward Saba's cot. Saba lay buried under her quilts, shivering so hard the bed frame rattled.
+ 
+"Stand up, girl!" the warden barked, reaching out her claw-like hand to rip the quilt away from Saba's feverish body.
+ 
+Before her fingers could touch the blanket, I stepped directly between the warden and my roommate's bed.
+ 
+"Madam Warden, do not touch her," I said. My voice was neither loud nor defiant; it was stone-cold, carrying a quiet, terrifying authority that made Miss Nazia's hand freeze in mid-air.
+ 
+"You dare give orders to the hostel warden, village girl?" she hissed, her face contorting in rage.
+ 
+"I am informing you of university regulations, Madam," I answered clearly, looking straight through her spectacles. "Regulation 32 states that a bedridden student suffering from acute fever must be examined by a certified medical officer before disciplinary inspection. Saba has a fever of one hundred and four degrees. If you strip her quilt in this freezing draft and her condition deteriorates into pneumonia, I will personally file an official complaint with the Vice Chancellor's office at eight tomorrow morning naming you for criminal negligence."
+ 
+Miss Nazia's jaw worked silently. For five agonizing seconds, the two of us stood locked in a battle of wills inside that freezing room.
+ 
+She looked at my unflinching eyes, then at Sara standing tall with aristocratic poise by the desk, and finally at Anza, whose pen was already hovering over an open notebook, documenting the time and date.
+ 
+The warden knew she had met a room that would not be terrorized by a whistle.
+ 
+"If I find a single burnt wire in this room tomorrow," she spat, turning on her heel toward the door, "you will all be sleeping on Bosan Road."
+ 
+When the heavy lock clicked shut from the outside, Sara collapsed onto her chair, laughing and crying simultaneously. Anza pulled the steaming towel from the bucket, and together we spoon-fed hot cardamom water to Saba until her shivering ceased.
+ 
+That night, Room 42 proved that sisterhood was stronger than the tyranny of iron gates.

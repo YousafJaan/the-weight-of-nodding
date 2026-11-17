@@ -1,21 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Generate Season 1 of the Epic Novel in English (Episodes 01 to 10)
+Generate Season 1 Part 1 Deep Expanded Epic Edition in English (Episodes 01 to 05)
 Novel: 'Rija: A Daughter's True Memoir'
-Season 1: The Sanctuary and the Iron Gate (Bosan Road & Room 42)
-Strict Plain Writing: ZERO em-dashes (\u2014) or en-dashes (\u2013).
-Protagonist: Rija (Anam)
+Author: Anam Sajjad | Protagonist: Rija
+Format: Deep Literary Narrative | Engaging Cinematic Start | Multi-Scene Structure
+Strict Plain Writing: ZERO em-dashes (—) or en-dashes (–).
 """
 
 import os
-import json
-
-base_dir = r"C:\Users\Huzaifa Mahi\.gemini\antigravity\worktrees\remote-workspace\write_new_book"
-out_dir = os.path.join(base_dir, "english_novel")
-os.makedirs(out_dir, exist_ok=True)
-
-def sanitize(text):
-    return text.replace("\u2014", " : ").replace("\u2013", " : ").replace("  ", " ")
 
 S1_EN_EPISODES = []
 
@@ -23,44 +15,100 @@ S1_EN_EPISODES = []
 S1_EN_EPISODES.append({
     "id": 1,
     "season": 1,
-    "season_name": "Season 1: The Sanctuary and the Iron Gate",
+    "season_name": "Season 1 : The Sanctuary and the Iron Gate",
     "title": "The Threshold of Bosan Road",
-    "subtitle": "The Homestead Courtyard, The Battered Iron Trunk, and The Scorching Sun of Multan",
-    "synopsis": "Stepping out from the safe, suffocating boundaries of the ancestral village to stand before Aisha Hall at Bahauddin Zakariya University Multan, bearing a father's severe burden of family honor.",
+    "subtitle": "The Dawn Departure, The Shattered Glass, and The Fortress of Multan",
+    "synopsis": "Departing the hostile ancestral village at dawn to cross the burning threshold of Bosan Road, where an anxious father entrusts his family honor to the turbulent winds of Bahauddin Zakariya University.",
     "scenes": [
-        """When the crowded passenger wagon finally slammed its screeching brakes on the burning asphalt of Bosan Road, a gust of scorching desert air laden with gritty yellow dust struck my face like an open flame. It was a suffocating September noon in Southern Punjab, where the sky had surrendered its azure blue to a heavy, chalky haze that seemed to press down upon every living creature. Before me, the imposing iron gates of Bahauddin Zakariya University stood like the portal of an ancient fortress. Beyond that threshold stretched a wide, tree-lined avenue, an asphalt highway carrying the whispered hopes of thousands of daughters who had journeyed out from the narrow mud courtyards of their villages to seek the skies.
+        """In the agrarian heartland of Southern Punjab, where the summer dust hangs like yellow smoke over the scorched cotton fields, a daughter's life is measured by a single terrifying metaphor : a fragile glass cup placed upon the home's highest shelf.
  
-From the luggage carrier fastened to the wagon's sun-baked roof, the conductor hauled down our battered tin trunk and two heavy canvas travel bags. My father, Sajjad, stepped down into the dust and exhaled a long, trembling breath. The stiff collar of his white cotton kurta was already dark with sweat, and the deep, weathered furrows across his forehead mirrored the unspoken dread he had carried inside his chest for the last three days.
+Inside the shaded courtyard, it catches the morning light and glistens, shielded from the world's harsh winds. But if a sudden draft shakes the mud wall, if a tremor of rumor rattles the rafters, or if the cup takes a single tumble onto the hard-baked brick floor, it shatters into a thousand needle-sharp splinters. And in that unforgiving land, not a single soul will stoop down to help gather its broken pieces. They will only point their calloused fingers and warn their own daughters : 'Look at what remains of Sajjad's girl.'
  
-He placed a calloused palm upon the rusted corner of the trunk, surveyed the strange, bustling crowds of students and university buses, and then turned his gaze directly toward me. When he spoke, there was a noticeable tremor in his deep voice, that instinctive, terrifying tremor that seizes an Eastern patriarch when he prepares to entrust his hereditary turban to the unpredictable winds of an unfamiliar city.
+It was four in the morning when the creak of the wooden gate shattered the village silence.
  
-"Rija, listen to me with open ears," Father said, his voice quiet yet carrying the weight of iron. "In our entire ancestry, not a single daughter has ever crossed the threshold of a hostel. For three weeks now, inside the drawing rooms of your uncles and cousins, venomous whispers have circulated that Sajjad has surrendered his honor by letting his girl wander into the open air of Multan. Remember this well : honor is like a fragile glass cup placed upon the home's high shelf. Inside the house, it catches the morning light and glistens, but if it takes a single stumble out here on the road, it shatters into fine powder, and not a single soul in this world will stoop down to help gather its broken splinters. If your foot hesitates or slips here for even an instant, your father's head will be buried in the mud forever."
+Outside in the narrow dirt lane, the village of our ancestors lay submerged beneath a heavy, suffocating pre-dawn mist. The neem tree in our courtyard dropped moisture onto the dry clay, and by the boundary wall, my delinquent cousin Arslan stood leaning against a mud buttress, the glowing tip of his cheap Capstan cigarette illuminating his sneering lips. Across the courtyard window, the silhouette of Aunt Shabana was clearly visible behind the frayed curtain. Her venomous whisper, carried by the morning breeze, drifted straight into our veranda : "Let us see if Sajjad's girl returns from the city with a degree or with a black stain upon our clan's turban."
  
-His words formed a sharp, hot thorn that lodged deep within my throat. I lowered my eyes instantly, clutching the frayed hem of my black cotton dupatta tightly inside my fist. Every fiber of my being wanted to cry out : 'Father, I do not love my books more than I revere your dignity. Why must you measure my existence only through the lens of potential disgrace? Why can you not trust the blood that runs through my veins?' But in our traditional Eastern households, daughters are never given the language of defense; they are granted only the habit of bowing their heads in silence.""",
+Inside the dim storeroom, Mother stood by the ancient clay stove, her fingers trembling as she kneaded dough for my travel sweets. Her eyes were red and swollen from an entire night of weeping, yet her hands worked with feverish determination.
  
-        """Aisha Hall was a sprawling, red-brick labyrinth that sprawled beneath the relentless midday sun. Stepping into the main corridor, my nostrils were immediately attacked by the overwhelming odor of cheap hospital-grade phenyl, stale mustard hair oil, and the trapped dampness of hundred-year-old masonry. In the vast breezeways, scores of young women scurried back and forth : some balancing plastic laundry buckets on their hips, others huddled in weeping clusters over payphones talking to anxious mothers in remote towns, while senior girls strolled toward the communal mess with indifferent, worldly glances.
+When I walked to her side, she did not speak. She reached deep into the pocket of her faded cotton kameez, pulled out a small tin of green cardamom seeds, and pressed it into my palm. Then she leaned down, her lips brushing my ear, and whispered with the fierce, trembling power of a cornered lioness : "Rija, my precious child! Your father is a stern man, eaten alive by the terror that this cruel world will devour his honor. But remember this well : whenever the walls of this strange city close in upon you and every earthly door is bolted shut, do not look to the men of this clan for mercy. Spread your prayer rug and recite Surah An-Nur. Your Lord will become your living fortress." """,
+
+        """Father Sajjad was tightening the hemp rope around our battered, rusted tin trunk.
  
-A sluggish queue wound through the central registration hall. When my turn finally arrived, I slid my admission papers and paid bank challan across the worn wooden counter. The registrar, an elderly woman in oversized plastic spectacles, scrutinized me from head to toe. Her eyes possessed that glazed, bureaucratic indifference that forms after decades of witnessing thousands of frightened, provincial faces cycle through the halls.
+His white hair was disheveled, and his sixty-year-old hands shook noticeably as he pulled the rough fibers taut. The stiff collar of his white cotton kurta was already damp with cold perspiration. He avoided my eyes, checking his waistcoat pockets repeatedly : checking his national identity card, his crumpled five-hundred-rupee notes, and the university bank challan that had cost him his entire season's wheat earnings.
  
-"Rija Sajjad? Department of Political Science?" she asked in a dry, monotonous tone.
-"Yes, Madam," I managed to whisper, my hands moist with perspiration.
-"Room 42, Block B, third floor. Here is your hostel regulation booklet. Be present every single evening at seven sharp for the mandatory roll call. If you are absent without a stamped medical slip from the university clinic, you face a five-hundred rupee fine and a disciplinary letter dispatched directly to your village address."
+My eighteen-year-old brother Hamza leaned against the wooden pillar, his arms crossed over his chest, his brow furrowed in bitter, resentful contempt. To Hamza, my departure was not an academic milestone; it was a personal humiliation, an unpardonable insult to the patriarchal supremacy he had inherited from our ancestors.
  
-Father lifted the iron trunk by its wire handle, and together we began climbing the concrete stairwell. By the time we reached the third landing, his breath was coming in ragged, shallow gasps, his sixty-year-old knees groaning beneath the physical exertion. When we arrived outside Room 42, the warped wooden door screeched upon its rusted hinges as he pushed it open.
+"Hurry up, girl," Father commanded in a raspy, strained voice that barely concealed his panic. "The passenger wagon to Multan does not wait for village princesses."
  
-Inside, four crude iron cots were wedged into the corners, their thin mattresses covered in mismatched cotton sheets. Two rickety study desks sat near the window, their varnished tops scarred by decades of blue ink stains and carved initials of forgotten occupants. Above us, an antique ceiling fan spun with agonizing slowness, squeaking rhythmically with every revolution, stirring the suffocating heat rather than relieving it.
+The journey from our ancestral district to Multan was an agonizing transit through the gates of hell.
  
-Father placed the trunk against the peeling wall. He reached deep inside the inner pocket of his waistcoat, pulled out three crumpled five-hundred-rupee notes that remained after paying the admission challan, and pressed them into my open palm.
+We were packed into the stifling belly of a dented, rattling Mazda wagon alongside twenty-four sweating passengers, sacks of chemical fertilizer, and cages of squawking chickens. Outside the smeared glass windows, the landscape of Southern Punjab flashed past like a scorched wasteland : endless plains of withered cotton stalks, brick kilns belching thick black soot into the pale sky, and dusty roadside tea stalls where idle men sat on string charpais, watching the world through half-closed, suspicious eyes.
  
-"This must carry you through the entire month," he said, avoiding my eyes. "If you waste a single coin on frivolity, you will face starvation in this hall. And remember my command : you are here only to attend your lectures and return straight to this room. Do not speak with strangers."
+By ten in the morning, the thermometer had crossed forty-six degrees Celsius. The metal roof of the wagon radiated heat like a baker's oven, and the desert dust seeped through every seam, coating our teeth and tongues with a gritty, bitter paste.
  
-He paused for a long, agonizing second. I saw his right hand twitch slightly, as if an ancient paternal instinct urged him to place his palm upon my head or draw me into a protective embrace. But the rigid, unyielding armor of patriarchal pride checked his motion. Without another syllable, he turned sharply and hurried down the dim hallway. I leaned against the rusted window mesh, watching his solitary white silhouette walk across the blazing tarmac below until he dissolved into the shimmering heat waves of Bosan Road.""",
+Father sat beside me in total silence. Every few miles, his right hand would reach into his pocket, touch the bank challan, and his chest would rise and fall with an involuntary shudder. He was an honorable farmer who had never set foot inside a modern institution, a man whose entire universe was bounded by the irrigation canal, the local grain market, and the village mosque. To take his daughter to a sprawling co-educational university in Multan felt to him like walking barefoot onto a bed of live coals.""",
+
+        """When the crowded wagon finally slammed its screeching brakes on the burning asphalt of Bosan Road, a blast of scorching desert air laden with fine yellow sand struck our faces like an open furnace.
  
-        """When night finally fell over Multan and the blackness of the Punjab plains swallowed the horizon, the terrifying reality of complete isolation tightened its grip around my chest like an iron band. Sitting upon the coarse mattress of that stranger's cot, I slowly unlatched my small cloth suitcase. Tucked beneath my spare cotton clothes lay the familiar things my mother had secretly packed the night before : her worn velvet prayer rug, a tiny tin of green cardamom pods, and a container of homemade gram-flour sweets.
+It was midday. The sun was a blinding, white-hot disc hanging directly overhead, pressing down upon the earth with crushing physical weight.
  
-Mother had undoubtedly wept over those sweets while kneading the dough over the clay stove in our courtyard. Her parting whisper, delivered into my ear during our frantic dawn farewell, resonated through the silence of the room : "Rija, my precious child! Your father is a stern man, but his heart is eaten away by the terror that this cruel world will devour his daughter's innocence. Whenever the walls of this strange city close in upon you and every earthly door is bolted shut, spread this rug and recite Surah An-Nur. Your Lord will become your living fortress."
+Before us, the monumental red-brick gates of Bahauddin Zakariya University rose like the portal of an ancient imperial fortress. Beyond that threshold stretched a vast, tree-lined avenue, an asphalt highway carrying the hopes, ambitions, and whispered terrors of thousands of students who had journeyed out from the impoverished mud villages of the plains to claim the modern world.
  
-I unfolded the prayer rug and spread it across the cold, dusty floor of Room 42. In that forgotten corner of Aisha Hall, completely severed from everything familiar, I performed the first prostration of my adult life where no earthly mediator stood between my soul and its Creator. Beyond the closed door, the laughter of unfamiliar girls and the harsh whistle of the night warden echoed through the hallways. But against that coarse fabric, with my forehead pressed against the floor, a profound stillness washed over my heart. This was the threshold where a daughter's long, agonizing battle for truth, honor, and destiny had officially begun."""
+The wagon conductor threw our tin trunk down from the luggage rack, letting it crash into the dust with a deafening metallic clang.
+ 
+Father stepped down onto the tarmac. He surveyed the bewildering sea of people : students in jeans and western shirts laughing loudly by juice stalls, fleets of blue university buses roaring past belching diesel smoke, and groups of confident city girls walking with their heads held high.
+ 
+A deep, visible tremor seized his jaw. He placed a calloused, sun-blackened palm upon the dented lid of the trunk, turned his weathered face toward me, and fixed me with a gaze so heavy, so freighted with ancient dread, that my breath caught in my chest.
+ 
+"Rija, open your ears and listen to your father," he said, his voice dropping into that terrifying, low register that commands absolute silence. "In seven generations of our bloodline, not a single female has ever spent a night away from her father's or her husband's roof. For three weeks now, the drawing rooms of your uncles and the shops of the bazaar have echoed with poisonous whispers. They say Sajjad has lost his mind; they say Sajjad has sold his family turban for a scrap of university paper. Remember what I told you : honor is a fragile glass cup on a high shelf. In this house, it glistening in the morning light. Out here on the open road, if you stumble for half a second, if your foot hesitates or your eye wanders, that cup will shatter into powder. And not a single soul in this cruel city will stoop down to help gather its broken splinters. If you bring dishonor upon my white hair, you will bury your father's head in the mud forever."
+ 
+His words were sharp, barbed hooks that tore into my throat.
+ 
+I gripped the frayed hem of my black cotton chador, keeping my eyes fixed upon the dust of his leather sandals. Every fiber of my soul wanted to cry out : 'Father, look at me! I am the blood of your veins, the child you taught to pray before the hearth. Why must you look upon my intellect as a catastrophe waiting to happen? Why do you fear my dreams more than you fear the malice of your brothers?'
+ 
+But in our traditional Eastern households, daughters are never granted the vocabulary of self-defense; they are granted only the habit of bowing their heads in silence.""",
+
+        """Aisha Hall was a sprawling, three-story red-brick labyrinth that sprawled beneath the blistering sun like an isolated penal colony for women.
+ 
+Stepping through its heavy iron gates, my senses were violently assaulted by the suffocating odor of cheap hospital-grade phenyl, rancid mustard hair oil, stale laundry, and the trapped dampness of masonry baking under tropical heat. In the vast, vaulted breezeways, scores of young women scurried back and forth : some balancing red plastic buckets on their hips, others huddled in weeping clusters over the payphones pleading with anxious mothers in remote towns, while senior girls in colorful silk dupattas strolled toward the communal dining hall with indifferent, worldly glances.
+ 
+A sluggish queue wound toward the central administrative counter.
+ 
+When our turn arrived, I pushed my admission slip and paid challan across the worn wooden barrier. Behind the counter sat Warden Miss Nazia, an imposing, middle-aged woman in oversized horn-rimmed spectacles, her dark hair pulled back into a severe, bone-tight bun. Her eyes possessed that dead, bureaucratic cruelty that develops after decades of treating frightened provincial girls like potential delinquents.
+ 
+"Rija Sajjad? Department of Political Science?" she barked, her eyes raking over my dusty village clothes, my plain cotton chador, and Father's weathered kurta with undisguised disdain.
+ 
+"Yes, Madam," I whispered, my palms wet with nervous sweat.
+ 
+"Block B, Room 42, third floor," she declared, stamping the paper with a sharp thump that echoed like a pistol shot. "Listen carefully to the rules, village girl. Seven o'clock sharp is mandatory roll call. If you are not standing by your bed when the night whistle blows, a five-hundred-rupee fine is levied immediately and a disciplinary letter is posted directly to your village address. No electric kettles. No immersion heaters. No male visitors beyond the iron gate under any circumstance : not even your grandfather. One slip, and you are expelled onto Bosan Road."
+ 
+Father lifted the heavy iron trunk by its wire handle, and together we began the long, agonizing ascent up the narrow concrete stairwell.
+ 
+By the time we reached the third-floor landing, his breath was coming in shallow, wheezing gasps, his sixty-year-old knees groaning beneath the weight. Room 42 was at the very end of the dim corridor. The warped wooden door screeched upon its rusted hinges as he pushed it open.""",
+
+        """The interior of Room 42 was a stark, suffocating cell.
+ 
+Four crude iron cots with thin, stained foam mattresses were wedged into the corners. Two rickety wooden study desks sat beneath a high window, their tops scarred by decades of blue ink stains, razor carvings, and the initials of forgotten occupants. Above us, an antique, paint-chipped ceiling fan spun with agonizing slowness, squeaking rhythmically with every revolution, stirring the thick, stagnant heat without offering a shred of relief.
+ 
+Father placed the heavy trunk against the peeling wall. He wiped his dripping brow with the sleeve of his kurta, surveyed the bleak, foreign room, and reached deep inside the inner pocket of his waistcoat.
+ 
+He pulled out three crumpled five-hundred-rupee notes : the absolute last coins remaining in his pocket after paying the university fees : and pressed them into my open palm.
+ 
+"This must carry you through the entire month," he said, his voice flat, avoiding my eyes. "If you waste a single rupee on sweets or frivolity, you will face starvation in this city. And remember my command : you are here only to attend your lectures and return straight to this room. Do not speak with strangers."
+ 
+He paused. In that fleeting, agonizing second, I saw his right hand twitch slightly, as if an ancient paternal instinct urged him to place his palm upon my head, or perhaps draw me into a protective embrace before leaving me to the wolves of the city.
+ 
+But the rigid, unyielding armor of patriarchal pride checked his motion. He pulled his hand back, tightened his jaw, and turned sharply without uttering another syllable.
+ 
+I leaned against the rusted window mesh, my heart hammering against my ribs, and watched his solitary white figure walk across the blazing asphalt courtyard below until he dissolved into the shimmering heat waves of Bosan Road.
+ 
+When midnight fell over Multan and the blackness of the Punjab plains swallowed the horizon, the terrifying reality of complete isolation tightened its grip around my chest like an iron band.
+ 
+Sitting upon the coarse cotton sheet of that stranger's cot, listening to the unfamiliar snores and whispered weeping of girls in neighboring rooms, I slowly unlatched my tin trunk. Beneath my folded spare clothes lay the things Mother had packed in secret : her worn velvet prayer rug, the small tin of cardamom seeds, and a glass jar of homemade sweets.
+ 
+I unfolded the prayer rug upon the cold, dusty floor of Room 42. In that forgotten corner of Aisha Hall, completely severed from everything I had ever known, I performed the first prostration of my adult life where no earthly father or brother stood between my soul and its Creator.
+ 
+Beyond the bolted door, the harsh whistle of the night warden cut through the darkness. But against that coarse velvet, with my forehead pressed against the earth, a profound, unshakeable stillness washed over my heart. The glass cup had not broken; the war for my destiny had officially begun."""
     ]
 })
 
@@ -68,46 +116,66 @@ I unfolded the prayer rug and spread it across the cold, dusty floor of Room 42.
 S1_EN_EPISODES.append({
     "id": 2,
     "season": 1,
-    "season_name": "Season 1: The Sanctuary and the Iron Gate",
+    "season_name": "Season 1 : The Sanctuary and the Iron Gate",
     "title": "The Republic of Room 42",
-    "subtitle": "Four Iron Cots, Stifled Dreams, and The Warden's Midnight Whistle",
-    "synopsis": "The turbulent coexistence of four girls from radically contrasting social classes inside Room 42, their clashing worldviews, and the suffocating discipline enforced by hostel warden Miss Nazia.",
+    "subtitle": "Four Daughters, Four Destinies, and The Broken Teacup",
+    "synopsis": "Inside the cramped third-floor dormitory cell, four young women from radically different worlds collide, clash, and forge an unbreakable covenant of survival against the hostel's oppressive regime.",
     "scenes": [
-        """Room 42 was never merely a residential chamber : it was a volatile, high-pressure microcosm of Southern Punjab's profound socio-economic fractures, an accidental sanctuary where four deeply wounded young women were crammed into eighteen square yards of peeling lime plaster. The four iron cots anchored to the corners were four distinct continents, each carrying its own unspoken tragedy.
+        """The morning sun broke over Room 42 not with gentle light, but with the brutal, blinding glare of a furnace.
  
-My cot rested beside the barred window, overlooking an ancient, scorched neem tree and the back entrance of the student canteen. Directly opposite me slept Saba, an eighteen-year-old girl from a remote, drought-stricken agrarian hamlet near Layyah, enrolled in the Urdu Literature department. Saba possessed the perpetual, wide-eyed terror of a caged sparrow. Her father, a small-scale tenant farmer, had granted her permission to attend university on a single, terrifying condition : she was strictly forbidden from participating in any public debate, speaking in any seminar, or allowing her photograph to be taken, under threat of immediate withdrawal and forced marriage to an illiterate village cousin.
+By six in the morning, the concrete walls had begun to radiate the heat stored during the previous day, turning our third-floor room into a humid oven. The rusted ceiling fan groaned in protest with every rotation, doing nothing more than circulating the heavy scent of old laundry and stale sweat.
  
-Near the doorway stood the cot of Sara, a political science major hailing from a wealthy yet deeply fractured feudal estate in Bahawalpur. Sara was the complete antithesis of Saba : tall, sharp-tongued, harboring a permanent sneer of cynical defiance. She kept a small box of matches tucked inside her pillowcase, spent hours blowing smoke rings through the door crack after midnight, and treated every administrative regulation with theatrical contempt.
+It was in that suffocating morning light that the four citizens of the Republic of Room 42 were formally introduced to one another : four young women from radically different social stratums of Pakistan, each carrying her own secret trauma and unspoken terror.
  
-The fourth cot belonged to Anza, a quiet, bespectacled scholar from the rural outskirts of Multan enrolled in the Philosophy department. Anza lived entirely in a fortress of thick, yellowed paperbacks. She sat cross-legged from dawn until the late hours of the night, sipping lukewarm black tea from an enamel mug, feverishly annotating treatises by Allama Iqbal, Nietzsche, and Bertrand Russell.
+The first was Saba.
  
-At precisely six-thirty in the evening, a piercing brass whistle shattered the humid air of the corridor, vibrating through the concrete floor like an electric shock. Saba leapt up from her cot with such violent panic that her notebook tumbled to the floor.
+She had arrived late the previous evening from Layyah, a desolate district bordering the Thal Desert. Her father was an impoverished, landless tenant farmer who had mortgaged his two milk cows to pay her entrance challan in the Botany department. Saba was timid as a desert sparrow. She sat perched on the edge of her cot, wrapped in a faded green printed dupatta that was fraying at the edges, clutching a dented aluminum tiffin carrier containing dry wheat rotis and pickled chilies. She spoke only when spoken to, in a soft, musical Saraiki dialect that trembled with fear whenever someone raised their voice.
  
-"Quickly, Rija! Pull your chador over your shoulders!" Saba gasped, her hands trembling as she fumbled with her plastic slippers. "Miss Nazia has entered the block! If we are not standing in line beside the doorframe before her whistle sounds for the second count, she will cut off the room's electricity for the entire night!"
+The second was Sara.
  
-I scrambled to my feet, adjusting my coarse black shawl, feeling the suffocating absurdity of being treated like a convict in a maximum-security penitentiary.""",
+Sara hailed from the historical city of Bahawalpur, the daughter of a ruined aristocratic family whose ancestral haveli had crumbled into decay after decades of family litigation. Tall, pale, with sharp, aristocratic features and haughty dark eyes, Sara carried herself like a deposed princess. She was enrolled in the English Literature department and arrived with two polished leather suitcases filled with second-hand editions of John Keats, Lord Byron, and Virginia Woolf.
  
-        """We stood in rigid, silent attention along the whitewashed corridor alongside forty other girls from Block B. Warden Miss Nazia, who had governed Aisha Hall with an iron fist for nearly two decades, marched down the gallery holding a thick cardboard dossier beneath her arm. She was a woman in her late forties, her hair tightly pulled back into an austere bun, her countenance set in an expression of perpetual, bitter hostility : that unmistakable bitterness that often festers inside souls who have sacrificed their own youth to enforce the joyless rules of a patriarchal institution.
+The fourth cot belonged to Anza.
  
-She paused before each student, her hawk-like eyes scanning collars, hems, hairpins, and fingernails, making sharp pencil notations upon her register. When she arrived directly before Room 42, her gaze locked onto me with clinical intensity.
+Anza was a final-year master's student in Philosophy from the crowded inner city of Multan. Short, stocky, with cropped hair and thick horn-rimmed glasses, Anza was an intellectual rebel who openly despised the university administration. She was the veteran of Aisha Hall, a girl who knew every loophole in the hostel rulebook, every loose floorboard, and every blind spot in Warden Miss Nazia's inspection rounds.""",
+
+        """The initial friction between our four corners was immediate and razor-sharp.
  
-"You are the new arrival?" she asked, her voice flat and cold as chilled marble.
-"Yes, Madam. Rija Sajjad, Department of Political Science," I answered, keeping my gaze respectfully lowered to the tops of her polished black oxfords.
-"You may appear decent and modest on the surface, young lady," Miss Nazia remarked, stepping closer until the sharp scent of medicated soap enveloped me. "But remember where you are. This is a university hostel. Out here, girls sprout rebellious wings overnight. Mark my words : after seven in the evening, no resident steps past the courtyard gate. Telephone calls are strictly prohibited past ten at night. And if I hear a single burst of loud laughter emerging from this doorway after dark, I will suspend this entire room for a week. Do you comprehend?"
+At seven in the morning, Sara surveyed the cracked plaster walls, the rusted cots, and Saba's dented aluminum tiffin with a curl of her aristocratic lip.
  
-"Yes, Madam," I whispered, swallowing the bitter bile of humiliation.
+"Is this a university hall or a provincial sanatorium?" Sara scoffed in crisp, anglicized Urdu, pulling out a silk handkerchief to dust her mattress. "The tap water in the washroom smells like stagnant canal mud, and the ceiling fan sounds like a dying threshing machine. My father assured me that Aisha Hall was reserved for daughters of good families."
  
-The moment the warden's footsteps faded around the staircase corner, Sara let out a theatrical, mocking sigh and leaned against the doorpost. "The Führer's granddaughter has completed her daily inspection," Sara murmured with venomous amusement. "That woman genuinely believes that every female born east of the Indus is inherently sinful until she produces a stamped affidavit of her own misery."
+From the opposite corner, Anza did not even bother looking up from her worn paperback of Bertrand Russell's *A History of Western Philosophy*.
  
-That night, an unscheduled regional blackout plunged Multan into utter darkness. Within minutes, Room 42 transformed into an unventilated furnace, the brick walls radiating the day's trapped heat like an oven. The four of us sat cross-legged upon old newspapers spread across the bare floor tiles, taking turns waving a piece of cardboard to stir the motionless, suffocating air.
+"If your father wanted a palace, princess, he should have bought you a private flat in the cantonment," Anza remarked in a dry, cutting monotone. "Out here in Room 42, we are all equal prisoners of the state. Your family's ruined pedigree will not buy you hot water when the boiler fails, nor will it save you when Miss Nazia knocks on that door with her disciplinary ledger."
  
-"Why did you really come to Multan, Rija?" Sara asked into the darkness, the brief flare of her match illuminating her sharp cheekbones as she lit an incense stick to ward off the swarming mosquitoes.
+Sara's face flushed crimson. She stood up, ready to unleash a barrage of high-class insults, while poor Saba shrank back against the wall, trembling as if an earthquake had struck the room.
  
-"I came to conduct research, Sara," I answered truthfully, wiping beads of sweat from my temple. "I came to prove to my father that his trust was not an error. I want to earn my degree and stand on my own feet."
+The atmosphere in that tiny room was a tinderbox, ready to ignite into ugly, permanent resentment.
  
-Sara burst into a sharp, dry laugh that sounded like dry leaves scraping across concrete. "Earn your father's approval? Oh, you poor, naive village girl! Eastern fathers do not celebrate their daughter's intellect. They only draw a breath of relief when that daughter's palanquin is safely unloaded into some stranger's courtyard where her screams will remain muffled behind four walls. None of us came here to be educated, Rija. We are all simply serving out our sentences before the executioner arrives."
+I knew that if Room 42 fragmented into hostile factions, the hostel would devour us one by one. In an institution where every warden, clerk, and guard was looking for an excuse to discipline and humiliate provincial girls, solidarity was our only shield.""",
+
+        """Without saying a word, I stepped toward the center of the room, between Sara's polished leather bags and Anza's pile of philosophy treatises.
  
-Sara's chilling words hung in the suffocating heat of Room 42 like an executioner's noose. Through the open window, the dry wind rattled the leaves of the old neem tree. I looked up at the patch of dusty sky visible through the iron bars and silently resolved that no matter how dark the road became, I would never allow my spirit to surrender to Sara's fatalism."""
+I brought out my mother's glass jar of homemade sweets and the tin of green cardamom seeds.
+ 
+I pulled my small wooden study stool into the center of the floor, placed the jar upon it, and looked directly into Sara's furious eyes, then into Anza's skeptical gaze, and finally at Saba's trembling hands.
+ 
+"My mother made these sweets over a wood fire in our village courtyard yesterday morning," I said, my voice steady, calm, and deliberate. "She wept over the dough because she knew that out here in Multan, a daughter without allies is like a stray lamb surrounded by wolves. We can spend this year measuring whose father possesses more land, whose pedigree is older, or whose English is more polished. Or we can sit down on this floor, eat this bread together, and agree that inside this room, no one stands alone."
+ 
+A heavy silence fell over the room. The antique ceiling fan squeaked three times.
+ 
+Anza was the first to move. She closed her book with a resounding snap, pushed her spectacles up her nose, and burst into a loud, throaty laugh.
+ 
+"Well spoken, village girl," Anza said, stepping down from her cot and taking a sweet from the jar. "Political Science has finally sent us a diplomat instead of a coward."
+ 
+Sara hesitated for several agonizing seconds, her aristocratic pride waging a silent war against the undeniable truth of my words. Then, slowly, with an elegance that was innate rather than practiced, she smoothed her silk dupatta and sat down upon the stool.
+ 
+"My mother always said that cardamom is the cure for bitter words," Sara whispered softly, her sharp facade cracking to reveal a young woman just as terrified of failure as the rest of us.
+ 
+Saba crawled forward with a shy, radiant smile, offering her pickled mangoes to the circle.
+ 
+In that stifling, ten-by-twelve concrete cell, over broken teacups and shared village sweets, the Republic of Room 42 was officially founded : four strangers bound not by law, but by an unwritten covenant of mutual survival."""
     ]
 })
 
@@ -115,45 +183,86 @@ Sara's chilling words hung in the suffocating heat of Room 42 like an executione
 S1_EN_EPISODES.append({
     "id": 3,
     "season": 1,
-    "season_name": "Season 1: The Sanctuary and the Iron Gate",
+    "season_name": "Season 1 : The Sanctuary and the Iron Gate",
     "title": "The Warden's Whistle and The Electric Kettle",
-    "subtitle": "Winter Fog, Contraband Coils, and The Gate-Pass Tribunal",
-    "synopsis": "As winter descends on Multan, the residents of Room 42 navigate freezing conditions and arbitrary hostel bans, building a clandestine survival system while facing administrative humiliation at the main gate.",
+    "subtitle": "The Cold Water War, The Contraband Coil, and The Midnight Inspection",
+    "synopsis": "When a brutal winter freezes the hostel pipelines, Room 42 risks expulsion to run a contraband electric kettle for a sick sister, leading to a heart-stopping midnight confrontation with Warden Miss Nazia.",
     "scenes": [
-        """By mid-December, the blistering heat of Southern Punjab had evaporated, replaced by a dense, bone-chilling winter fog that rolled across the sugarcane fields and swallowed Bosan Road in a white, blinding shroud. The temperature plummeted into the single digits, and the aged red-brick walls of Aisha Hall, designed to dissipate heat, now transformed the interior into an unheated stone crypt.
+        """By late November, the suffocating heatwaves of Multan had vanished, replaced by an icy, piercing continental chill that rolled down from the northern mountains across the plains of Punjab.
  
-The hostel taps yielded water so frigid that washing one's face felt like plunging flesh into crushed ice. Yet, by decree of the Chief Warden's office, all high-voltage electrical heating appliances : immersion rods, electric heaters, and kettles : were strictly outlawed under threat of a three-thousand-rupee fine and immediate eviction. The official rationale was 'fire safety', but every student knew the truth : the administration refused to pay the winter electricity surcharge to the utility company.
+In Aisha Hall, winter was not a season; it was an ordeal of endurance.
  
-Inside Room 42, we were shivering uncontrollably. Saba's fingers had swollen with painful, purplish chilblains, making it nearly impossible for her to grip her pen during morning lectures.
+The cavernous red-brick building had no heating infrastructure. The concrete floors turned into slabs of freezing ice, and the water flowing through the ancient iron pipelines became so painfully cold that touching the tap felt like pressing a razor blade against bare flesh.
  
-"We cannot survive January like this," Sara declared one evening, pulling an oversized woolen shawl over her shoulders. "Tomorrow, Rija and I are going to the electronic bazaar in Hussain Agahi."
+Yet the hostel administration under Warden Miss Nazia enforced a regime of draconian austerity.
  
-The expedition required smuggling a five-hundred-watt brass immersion rod past the security post at the main portal. Sara wrapped the metal coil in three layers of old newspaper and concealed it inside the hollow lining of my winter coat. My heart pounded furiously against my ribs as we approached the security desk, but the aging guard was busy slurping hot soup from an aluminum bowl and barely glanced at our student identity cards.
+Under Regulation 14 of the Hostel Code, all electric heating appliances : immersion rods, electric heaters, blowers, and kettles : were strictly outlawed. The official pretext was fire safety; the real reason was that the university administration refused to pay the winter electricity bills.
  
-Back inside Room 42, behind bolted doors and with heavy blankets draped over the windows to block any light leak, we inaugurated our clandestine heating station. We wedged an empty metal powdered-milk tin into the narrow alcove behind the wooden wardrobe, filled it with water, and plugged the immersion coil into an illicit wall socket whose safety plate Sara had bypassed with a butter knife.
+Anyone caught with a heating coil faced an instantaneous five-hundred-rupee fine, confiscation of the appliance, and a public notice posted on the dining hall noticeboard labeling the student a 'habitual violator of institutional discipline'.
  
-When the water began to bubble with a soft, comforting hiss, the four of us clustered around that tiny tin can like travelers around an oasis fire. When Anza dropped four teabags and a pinch of crushed cardamom into the boiling water, the fragrant steam that rose into the icy room felt like an act of triumphant rebellion. That hot brew, shared in chipped ceramic mugs in the dead of winter, was not merely tea; it was life itself.""",
+Every evening at seven sharp, Miss Nazia's brass whistle would pierce the freezing air of the corridors. She would march through the blocks accompanied by two burly female guards, pounding on doors, sniffing the air for the telltale scent of hot metal, and overturning plastic buckets in search of contraband.""",
+
+        """In the second week of December, catastrophe struck Room 42.
  
-        """Yet, the hostel's administrative machinery found endless ways to strip away a young woman's dignity. The most humiliating daily gauntlet was the infamous 'Gate-Pass System'.
+Saba, who possessed no wool blankets and slept beneath two thin cotton quilts, caught a severe chest infection. By midnight, her teeth were chattering violently, her lips had turned an alarming shade of blue, and a dry, wracking cough shook her frail ribcage.
  
-To step beyond the university gates for even two hours : whether to purchase prescribed textbooks, visit a medical laboratory, or submit photocopies : required an ordeal that resembled an interrogation before a military tribunal. One chilly Tuesday afternoon, I needed to visit the Central Post Office to mail my handwritten case notes to a research journal.
+"I cannot breathe, Rija," Saba wept in the dark, her small hands clutching my wrist like ice clamps. "My chest feels as if someone has poured boiling lead into my lungs. Please, just a sip of warm water..."
  
-I stood before Miss Nazia's mahogany desk in the administrative wing. The warden was scrutinizing my printed pass application through her spectacles as if hunting for hidden treason.
+The communal boiler on the ground floor had run dry at eight in the evening. To obtain hot water legitimately required waiting until six the following morning, when the hostel mess staff lit the wood boilers.
  
-"The Central Post Office?" she asked, raising a skeptical eyebrow. "Why can you not use the student post box inside the campus student center?"
-"Madam, the campus box is only cleared once a fortnight, and my research submission deadline expires on Thursday," I explained with quiet dignity.
+Anza stood up in the dark, pulled back the loose wooden floorboard beneath her cot, and brought out our greatest secret : a miniature, handheld electric immersion coil wrapped in electrical tape.
  
-"Who is this supervisor you are corresponding with? Is he a male professor?" Her questions carried that toxic, unstated insinuation that perpetually haunted every female movement in Southern Punjab. "Girls from respectable rural families do not wander around the city's commercial centers on a weekday afternoon. Bring me a written authorization letter signed by your department head, or this slip remains unsigned."
+"If we get caught, Nazia will expel all four of us before dawn," Sara whispered from the desk, her voice tight with panic. "My father's honor cannot survive an expulsion notice!"
  
-A surge of burning anger rose from my stomach to my throat. I stood there in my worn black shoes, looking at this woman whose sole authority derived from policing the physical boundaries of young women who had never committed a crime.
+"Her lungs will collapse before dawn if we do not give her hot water," I replied firmly, taking the coil from Anza's hand. "Sara, stand by the door and listen for the key ring. Anza, get the steel jug." """,
+
+        """We plugged the crude heating coil into the cracked wall socket behind the wooden trunk, subverting the current with a bent copper wire.
  
-"Madam," I said, looking directly into her eyes without lowering my gaze for the first time. "My department head, Dr. Masood, appointed me as a student researcher precisely because he values my intellectual capacity. If you suspect that a scientific paper on constitutional law is a cover for immoral behavior, I invite you to read the sixty pages currently in my bag."
+Within ninety seconds, the water in the steel jug began to hiss and bubble. The comforting aroma of hot steam rose into the freezing air of Room 42, carrying the hope of relief for Saba's burning throat.
  
-Miss Nazia's face flushed with sudden irritation at my composure. She signed the slip with a violent stroke of her red pen and slammed the stamp onto the carbon paper.
+Then, without warning, the sharp, metallic screech of a key sliding into the corridor lock sent ice through our veins!
  
-"Take it!" she snapped. "And if you are not back inside this gate by four-thirty sharp, do not bother returning. Sleep on the pavement of Bosan Road!"
+*Tweet!*
  
-I took the stamped pass, turned on my heel, and walked out into the chilly winter air. As I passed through the iron gates and stepped onto the public road, I drew in a deep breath of the misty wind. The city outside was harsh, indifferent, and dangerous, but inside the hostel, the walls were suffocating the very soul. I knew then that every step toward freedom would require tearing through layers of suspicion and spite."""
+The deafening blast of Miss Nazia's brass whistle erupted right outside our door, followed by two violent, thunderous thumps against the wooden panel!
+ 
+"Open up! Room 42! Unscheduled inspection!" Miss Nazia's screeching voice echoed like a siren.
+ 
+Panic exploded in the room. The immersion coil was glowing cherry-red inside the boiling water, emitting a faint, unmistakable hum that could be heard through the door!
+ 
+With split-second presence of mind, Anza snatched the steel jug and dumped the boiling water straight into Saba's aluminum wash bucket, shoving the scalding coil into a cold wet towel.
+ 
+"Rija! The desk!" Sara hissed, her face white as chalk.
+ 
+I grabbed my heavy Political Science textbook, threw open the door just as Miss Nazia prepared to strike it with her heavy wooden clipboard, and stood squarely in the threshold, blocking the warden's view of the interior.""",
+
+        """Miss Nazia shoved past me into the room, her small, beady eyes darting across the cots like a hawk tracking prey. Her two guards stood in the doorway with flashlights, illuminating the dim corners.
+ 
+"What was that noise?" Miss Nazia snarled, her nostrils flaring as she sniffed the air. "I smell hot copper! Who has an immersion heater in this room?"
+ 
+She marched directly toward Saba's cot. Saba lay buried under her quilts, shivering so hard the bed frame rattled.
+ 
+"Stand up, girl!" the warden barked, reaching out her claw-like hand to rip the quilt away from Saba's feverish body.
+ 
+Before her fingers could touch the blanket, I stepped directly between the warden and my roommate's bed.
+ 
+"Madam Warden, do not touch her," I said. My voice was neither loud nor defiant; it was stone-cold, carrying a quiet, terrifying authority that made Miss Nazia's hand freeze in mid-air.
+ 
+"You dare give orders to the hostel warden, village girl?" she hissed, her face contorting in rage.
+ 
+"I am informing you of university regulations, Madam," I answered clearly, looking straight through her spectacles. "Regulation 32 states that a bedridden student suffering from acute fever must be examined by a certified medical officer before disciplinary inspection. Saba has a fever of one hundred and four degrees. If you strip her quilt in this freezing draft and her condition deteriorates into pneumonia, I will personally file an official complaint with the Vice Chancellor's office at eight tomorrow morning naming you for criminal negligence."
+ 
+Miss Nazia's jaw worked silently. For five agonizing seconds, the two of us stood locked in a battle of wills inside that freezing room.
+ 
+She looked at my unflinching eyes, then at Sara standing tall with aristocratic poise by the desk, and finally at Anza, whose pen was already hovering over an open notebook, documenting the time and date.
+ 
+The warden knew she had met a room that would not be terrorized by a whistle.
+ 
+"If I find a single burnt wire in this room tomorrow," she spat, turning on her heel toward the door, "you will all be sleeping on Bosan Road."
+ 
+When the heavy lock clicked shut from the outside, Sara collapsed onto her chair, laughing and crying simultaneously. Anza pulled the steaming towel from the bucket, and together we spoon-fed hot cardamom water to Saba until her shivering ceased.
+ 
+That night, Room 42 proved that sisterhood was stronger than the tyranny of iron gates."""
     ]
 })
 
@@ -161,48 +270,102 @@ I took the stamped pass, turned on my heel, and walked out into the chilly winte
 S1_EN_EPISODES.append({
     "id": 4,
     "season": 1,
-    "season_name": "Season 1: The Sanctuary and the Iron Gate",
+    "season_name": "Season 1 : The Sanctuary and the Iron Gate",
     "title": "Two A.M. at Nishtar Emergency",
-    "subtitle": "A Midnight Collapse, The Refusal of Care, and The Wards of Despair",
-    "synopsis": "When roommate Saba collapses in the dead of night with acute appendicitis, Rija and Sara must battle indifferent hostel administrators and navigate the chaotic, harrowing wards of Nishtar Hospital without a male guardian.",
+    "subtitle": "The Ruptured Appendix, The Barred Gates, and The Battle of Nishtar",
+    "synopsis": "When Saba collapses in the dead of night with a ruptured appendix, Rija breaks the hostel lockdown, commandeers an auto-rickshaw through the fog, and navigates the chaotic horrors of Nishtar Hospital without a male guardian.",
     "scenes": [
-        """The emergency struck at twenty minutes past one in the morning, when Aisha Hall was submerged in dead silence and the winter frost clung to the window panes. A sickening, choked cry sliced through the stillness of Room 42, followed by the violent crash of an aluminum water jug hitting the floor tiles.
+        """At one-forty-five on a freezing Thursday morning in January, the delicate peace of Room 42 was shattered by a sound that chills the blood : a choked, agonizing scream that tore from Saba's throat like the cry of a dying animal.
  
-I bolted upright from my cot, my heart racing. In the dim amber glow of the corridor lamp leaking through the transom, I saw Saba crumpled upon the concrete floor, clutching her lower right abdomen, her knees drawn tightly toward her chest. Her skin was deathly pale, covered in a cold, clammy sweat, and her lips were trembling violently.
+I leaped from my cot.
  
-"Saba! What is happening?" I cried, dropping to my knees beside her. Her forehead was burning like a furnace, yet her entire frame shuddered with severe chills.
+Saba was curled into a tight, fetal ball upon the floor between the beds, both her hands clutching the lower right quadrant of her abdomen. Her skin was ghastly pale, drenched in cold, clammy sweat, and her eyes were rolled back in sheer, unendurable agony.
  
-"Rija... it feels like... a knife inside my stomach," she gasped, her voice breaking into an agonized whimper. "I cannot breathe... please... help me..."
+"My stomach... it tore... something exploded inside..." she gasped, vomiting a mouthful of bile onto the concrete floor before losing consciousness.
  
-Sara leapt from her bed, instantly assessing the situation. "Her appendix is rupturing," Sara said, her voice unusually stripped of its trademark cynicism. "We have to get her to Nishtar Hospital immediately."
+Anza felt her burning forehead and pressed two fingers to her thready, racing pulse.
  
-Leaving Anza to hold Saba's convulsing frame, Sara and I sprinted down three flights of concrete stairs in our bare feet, banging with both fists against the heavy teak door of the superintendent's residence on the ground floor.
+"Acute appendicitis," Anza said, her voice stripped of all its usual philosophical detachment. "It has ruptured. Peritonitis. If she does not get onto an operating table within two hours, septic shock will kill her."
  
-When the night supervisor finally cracked open the door, wearing an oversized woolen cardigan and a scowl of deep annoyance, her response was a masterclass in bureaucratic callousness : "An ambulance? For an ordinary stomach ache? Do you think university vehicles are taxis for hysterical girls? Give her two paracetamol tablets and let her rest until the morning clinic opens at nine."
+We threw a woolen shawl over Saba, lifted her frail body between us : Anza supporting her shoulders, I holding her waist, and Sara carrying her feet : and carried her down the three flights of stairs into the dark main foyer.
  
-"Madam, she is vomiting blood and cannot stand!" I screamed, grabbing the doorframe before she could shut it. "If her appendix bursts inside this building tonight, you will answer for her murder to the police and her family in Layyah!"
+At the heavy iron gates of Aisha Hall, our nightmare collided with the stone wall of administrative indifference.""",
+
+        """The heavy iron gates were chained and secured with a three-pound brass padlock.
  
-The word 'police' punctured the supervisor's smug indifference. Five minutes later, she reluctantly scribbled an emergency gate exit slip, but flatly refused to summon the university driver. "Find your own transport on the road," she sneered, locking her door behind us.""",
+Inside the guard cabin, Baba Shafi, the elderly night watchman, sat wrapped in a blanket over a charcoal brazier, refusing to touch his keys.
  
-        """Sara and I practically carried Saba across the dark, frozen campus grounds, supporting her limp arms over our shoulders, her feet dragging helplessly through the winter weeds. Outside the main gate, after ten terrifying minutes in the pitch-black mist, we managed to hail a battered auto-rickshaw whose driver agreed to transport us only after Sara pressed a five-hundred-rupee note into his palm.
+"No gate opens after ten without a signed exit pass from the Warden Sahiba," he mumbled, coughing into his hand. "Those are the rules. If I open this gate for three girls at two in the morning, the police will arrest me for trafficking."
  
-The emergency department of Nishtar Hospital at two in the morning was an unfiltered descent into Dante's Inferno. The reception hall reeked of coagulated blood, cheap carbolic acid, and human despair. Exhausted orderlies pushed squeaking iron stretchers through crowded corridors lined with groaning road accident victims, screaming children, and destitute families huddled upon the filthy terrazzo floor.
+"Are you blind, old man?" Sara shouted, her aristocratic temper exploding. "Look at her face! She is dying on this floor!"
  
-"Where is the male guardian?" the triage clerk demanded aggressively, pushing our admission slip back across the blood-splattered counter. "We cannot admit a female patient for surgical evaluation without the presence and signature of her father, brother, or husband."
+Miss Nazia emerged from her private quarters on the ground floor, wearing a quilted dressing gown, her face frozen in bureaucratic annoyance.
  
-"Her father is a tenant farmer stranded five hours away in a remote village near Layyah!" I shouted, slamming both palms onto the counter, heedless of the shocked stares around us. "She is dying right in front of you! Here are our university identity cards. I will sign whatever document is required, but if you do not call a surgeon to this stretcher right now, I will walk straight into the Medical Superintendent's office upstairs!"
+"What is this disgraceful commotion?" she demanded. "Where is her male guardian? Who authorized you to bring a student down to the gate? Regulation 9 clearly mandates that in medical emergencies, the hall must dispatch an official telegram to her village and wait for her father or brother to arrive before hospital admission."
  
-Something in my furious, uncompromising gaze broke through the clerk's obstinacy. Within twenty minutes, a young, bleary-eyed surgical resident examined Saba, confirmed an acute, gangrenous appendicitis, and wheeled her directly into the pre-operative theater.
+"Her father lives seven hours away in a remote village near Layyah!" I shouted, stepping within inches of the warden's face, my voice shaking with an uncontrollable, righteous fury. "By the time your telegram reaches her village, Saba will be a corpse in your mortuary! Give me the key, or by God, I will break this glass window and pull the fire alarm until every girl in this hall pours into this courtyard!"
  
-For the next four hours, Sara and I sat side by side upon a rusted metal bench in the freezing hospital corridor. The fluorescent tubes above us flickered and hummed with a monotonous, maddening buzz. Around us, weeping relatives prayed on small handkerchiefs, while police constables escorted handcuffed criminals through the swinging doors.
+Miss Nazia saw the wild, terrifying resolve in my eyes. She realized that I was not bluffing; I would bring the entire building down on her head.
  
-At six in the morning, the surgeon emerged, pulling off his bloodstained latex gloves. "She was twenty minutes away from septic peritonitis," he said, wiping his exhausted brow. "The appendix was completely perforated. But she will survive. You two saved her life."
+With a trembling hand, she unlocked the small wicket gate.
  
-When they wheeled Saba into the recovery ward, pale and groggy from the general anesthesia, she opened her heavy eyelids and feebly grasped my hand. Her voice was barely a whisper : "Rija... did my father... find out?"
+"Go," she hissed. "And if you return without an official hospital admission slip, your bags will be thrown onto the street." """,
+
+        """Finding transport on Bosan Road at two-fifteen in the morning was like searching for life on the moon.
  
-Even at the literal edge of death, the supreme terror of a daughter in our society was not the scalpel or the grave; it was the terrifying specter of paternal wrath. I squeezed her cold fingers, hot tears finally spilling down my cheeks. "No, Saba," I whispered. "Your father knows nothing. You are safe now."
+The wide avenue was buried under a blinding, pea-soup fog that reduced visibility to three paces. The streetlights were mere amber blurs in the mist, and stray dogs barked in the distance like wolves.
  
-Sitting beside that squeaking hospital cot as the grey dawn light filtered through the cracked window, I realized how horrifyingly fragile a woman's existence was when severed from home, and how we, the daughters of this unforgiving land, had no choice but to become each other's shield."""
+After ten agonizing minutes of standing in the freezing damp, waving our arms like madwomen, a sputtering, three-wheeled auto-rickshaw emerged from the fog. Its elderly driver, seeing three desperate young women carrying an unconscious girl, slammed his brakes.
+ 
+"Nishtar Hospital Emergency!" I yelled, shoving a fifty-rupee note into his hand. "Drive as if your own daughter's life depends on it!"
+ 
+The rickshaw roared into life, vibrating violently as it sped through the deserted, foggy streets of Multan, swerving around potholes and speed breakers while Sara and I held Saba's limp head in our laps, rubbing her icy hands to keep her heart beating.
+ 
+Nishtar Hospital Emergency at two-thirty in the morning was a scene of unmitigated human slaughter.
+ 
+The sprawling, dimly lit receiving hall smelled of raw sewage, dried blood, gangrene, and industrial disinfectant. Gurneys carrying victims of highway accidents were shoved against the walls; screaming mothers held malnourished infants on the dirty terrazzo floor; and exhausted junior doctors in blood-stained white coats moved like ghosts through the carnage.""",
+
+        """Because we were three young women unaccompanied by a male guardian, the administrative counter treated us as invisible.
+ 
+"Where is her father?" the reception clerk barked without looking up from his register. "Who will sign the surgical consent form? Who will pay the emergency medicine fee?"
+ 
+"I am her legal representative," I declared, slamming my university student card onto his desk. "She is a registered government scholar at Bahauddin Zakariya University. If you delay her surgery by another ten minutes for paperwork, I will hold you personally responsible for murder."
+ 
+A young surgical resident, hearing the commotion, hurried over. He pressed a hand to Saba's rigid, board-like abdomen.
+ 
+"Emergency laparotomy right now," the resident shouted to the orderlies. "The appendix has burst. She is slipping into shock. Get her to Theatre Four!"
+ 
+Before they wheeled her through the double swinging doors, the orderly shoved a crumpled prescription slip into my hand.
+ 
+"Go to the pharmacy across the road immediately," he said. "The hospital has no surgical gloves, no IV cannulas, and no cefotaxime injections in stock. If you do not bring them in twenty minutes, the surgeon cannot open her up."
+ 
+Sara and I stood in the freezing hospital corridor, turning our pockets inside out.
+ 
+Sara had forty rupees. I had ninety rupees remaining from my father's allowance. We needed eight hundred and fifty rupees.
+ 
+In that desperate hour, Sara unclasped a small gold nose ring : the very last heirloom of her grandmother's bridal jewelry : that she had kept hidden in the seam of her purse.
+ 
+"Take it," Sara whispered, her eyes brimming with tears. "Run across to the all-night chemist. Sell it. Save our sister." """,
+
+        """I sprinted across the dark, icy road into the glaring neon lights of the 24-hour medical store.
+ 
+The chemist examined the gold ring through his magnifying loupe, weighed it, and handed over the surgical supplies along with six hundred rupees in change.
+ 
+I ran back into the emergency wing, my breath tearing at my lungs, and thrust the plastic bag into the surgical nurse's hands just as the red 'IN OPERATION' bulb lit up above Theatre Four.
+ 
+For three agonizing hours, Sara and I sat on the cold concrete steps outside the operating theatre, holding each other in the freezing winter dawn. We did not speak. We prayed.
+ 
+At five-thirty in the morning, the heavy wooden doors swung open.
+ 
+The young resident walked out, pulling off his bloody latex gloves, his eyes tired but smiling.
+ 
+"She made it," the doctor said. "Ten minutes later, the toxins would have reached her bloodstream. Your quick action saved her life. She is a very lucky girl."
+ 
+As the first rays of dawn cut through the winter mist, illuminating the grand brick domes of Nishtar Hospital, the call to prayer echoed from the minarets across Multan.
+ 
+I looked down at my blood-stained hands, then at Sara's smiling, tear-streaked face.
+ 
+We had faced the iron gates, the tyranny of the warden, and the horrors of a midnight emergency without a single male protector. In the crucible of Nishtar, we had forged a sisterhood that no custom, no decree, and no fear could ever destroy."""
     ]
 })
 
@@ -210,62 +373,105 @@ Sitting beside that squeaking hospital cot as the grey dawn light filtered throu
 S1_EN_EPISODES.append({
     "id": 5,
     "season": 1,
-    "season_name": "Season 1: The Sanctuary and the Iron Gate",
+    "season_name": "Season 1 : The Sanctuary and the Iron Gate",
     "title": "The HEC Research Merit",
-    "subtitle": "The Notice Board, The Feudal Heiress, and The Battle for the Assistantship",
-    "synopsis": "Facing severe financial hardship, Rija competes for a prestigious Higher Education Commission research position, triggering the bitter, vindictive wrath of Umme Rubab, a powerful and privileged senior student.",
+    "subtitle": "The Bureaucrat's Daughter, The Candlelit Proposal, and The Boardroom Duel",
+    "synopsis": "When a prestigious national research grant is announced, Rija challenges the wealthy, connected hostel elite Umme Rubab before the university selection board, igniting a bitter war of academic jealousy.",
     "scenes": [
-        """By the onset of my third semester, the meager financial reserves Father had provided were completely exhausted. The cost of photocopied syllabi, research monographs, and daily necessities had devoured every rupee. When I called home from the public telephone booth near the university bank, Father's response was curt and devastating : "Crop yields this season have failed, Rija. Cotton prices have collapsed. If you cannot manage your expenses, pack your trunk and return home. A daughter's education cannot take precedence over feeding the household."
+        """In the spring of our first academic year, a massive, gold-embossed notification appeared upon the central noticeboard outside the Department of Political Science.
  
-The threat of eviction hung over my head like an executioner's blade. It was precisely at this desperate juncture that a white, stamped official circular appeared upon the glass-encased notice board outside the Department of Political Science.
+The Higher Education Commission of Pakistan, in collaboration with the United Nations Development Programme, had announced a single, prestigious National Research Fellowship for Southern Punjab.
  
-The Higher Education Commission, in partnership with an international development consortium, was funding a high-profile empirical research initiative entitled : *'Tribal Customary Panchayats and the Denial of Statutory Inheritance Rights to Rural Women in Southern Punjab.'*
+The fellowship carried a full tuition waiver, a monthly stipend of ten thousand rupees, and the exclusive mandate to conduct empirical research on 'Constitutional Safeguards vs Customary Feudal Tribal Practices in Rural Punjab'.
  
-The project had a single opening for a 'Junior Research Assistant', carrying a monthly stipend of thirty-five thousand rupees : an astronomical sum that represented not merely financial survival, but total liberation from the humiliating necessity of begging Father for pocket money. It was the key to my academic sovereignty.
+For an impoverished student like me, whose daily existence was a precarious balancing act of counting bus coins and borrowing second-hand library books, that fellowship was not merely an academic prize : it was a lifeline to intellectual freedom.
  
-However, across the corridors of Aisha Hall, the position was already considered the exclusive, pre-ordained property of Umme Rubab.
+Within forty-eight hours, the department was buzzing with excitement. But among the forty applicants who submitted their preliminary dossiers, one name cast a long, intimidating shadow over the entire university : Umme Rubab.
  
-Umme Rubab was a senior graduate student whose family owned sprawling agricultural lands along the Chenab river and maintained powerful political connections in Lahore. She arrived at the department every morning in a gleaming red sedan, wore imported designer lawn suits that trailed expensive French perfume through the dusty corridors, and maintained an entourage of sycophantic junior girls who carried her files. Her paternal uncle was a personal confidant of the University Vice-Chancellor.
+Umme Rubab was the undisputed queen of Aisha Hall's elite wing.
  
-Two days before the scheduled interviews, Umme Rubab cornered me outside the departmental seminar library. Her painted lips curled into a patronizing, razor-sharp smile.
+Her father was an Additional Chief Secretary in the provincial civil service, a man whose phone call could transfer professors and sanction departmental budgets. She arrived at the university in a chauffeur-driven white Honda Civic, wore designer linen joras, and possessed a private room with an illegal split air-conditioner that the wardens pretended not to notice.
  
-"Listen to me, Rija," she said, tapping her manicured red nails against her leather folder. "You are embarrassing yourself by submitting an application for this assistantship. Dr. Arshad has been a house guest at our Multan residence for a decade. Positions of this caliber are designed for candidates with social pedigree and global polish, not for provincial hostelites who buy second-hand shoes from the bazaar. Go back to your dorm and prepare for your regular coursework."
+To Umme Rubab and her clique of wealthy sycophants, the HEC Fellowship was an ornamental accessory, a trophy to be displayed on her CV before an arranged marriage to a foreign diplomat.""",
+
+        """ "Why is that barefoot village girl even standing in the application queue?" Umme Rubab's loud, mocking laugh rang across the department canteen one afternoon, loud enough for half the faculty to hear.
  
-The raw, casual arrogance in her voice was breathtaking. It was the generational entitlement of the landed gentry who believe that intellectual merit, like river canal water, can be diverted into their private estates through bribery and political coercion.
+She was seated with three of her wealthy hostel friends, sipping cold coffee from imported glass bottles.
  
-I tightened my grip on the strap of my frayed shoulder bag and looked directly into her dark, mascara-rimmed eyes.
+"Her father probably signed her admission forms with a thumb impression," Umme Rubab sneered, tossing her designer leather bag onto the table. "Research requires sophisticated theoretical frameworks and English prose, not the dialect of wheat harvesters. She should save her bus fare and buy herself a sewing machine."
  
-"Umme Rubab," I replied evenly, keeping my voice low and steady. "Knowledge and sustenance are not inherited family jagirs. If my Lord has written this research appointment in my destiny, all the political uncles of Multan cannot tear it from my hands. We will let the selection board decide on Friday."
+The canteen erupted in sycophantic giggles.
  
-She recoiled slightly, her eyes narrowing into cold slits of hatred. "You will regret this insolence, village girl," she hissed, turning on her designer heels and marching away.""",
+I sat three tables away, working through a battered, library-loaned copy of Arend Lijphart's *Democracies*.
  
-        """On Friday morning, the air inside the Dean's Conference Room was thick with academic tension. The selection panel was formidable : the Head of Department Dr. Arshad, an external constitutional expert from Punjab University, and a senior British project representative named Dr. Julian Evans.
+My knuckles turned white against the wooden table, but I did not look up. I did not yell, I did not cry, and I did not engage in the cheap theater of cafeteria insults.
  
-When my name was summoned, I entered wearing my plain white cotton suit and a modest black headscarf. I had spent the preceding two weeks staying awake until four in the morning, compiling fifty pages of primary field interviews conducted in the rural outposts of Muzaffargarh and Rajanpur, detailing the clandestine practice of *Haq Bakhshwana* : the coerced ritual where young rural women are forced to swear an oath upon the Holy Quran renouncing their inheritance rights in favor of their brothers.
+Instead, I remembered my mother's words : *When the dogs of the village bark at your ankles, do not stoop to throw stones; climb the mountain until their barking sounds like the whisper of dry grass.*
  
-Dr. Arshad opened the interview with a barrage of skeptical, aggressive inquiries, attempting to trip me up on statistical modeling and theoretical paradigms. But when I presented my primary field documentation : complete with court case citations, village revenue settlement maps, and translated testimonies of disinherited sisters : Dr. Evans took off his reading glasses and leaned forward over the mahogany conference table.
+For seventy-two consecutive hours leading up to the final selection board, while Umme Rubab attended society dinners and held court in the hostel common room, Room 42 became an intellectual battle station.
  
-"Remarkable," Dr. Evans remarked, examining my handwritten charts. "Miss Rija, this is not mere theoretical regurgitation. You have captured the living, bleeding reality of Southern Punjab's agrarian patriarchy. This is precisely the empirical rigor this international consortium requires."
+By the flickering yellow light of a wax candle, with Sara correcting my English syntax and Anza sharpening my philosophical arguments, I wrote my seventy-page research prospectus.
  
-The interview lasted forty-five minutes. When I emerged into the courtyard, the afternoon sun felt warm and benevolent upon my face.
+I did not rely on sterile, Western textbook theories copied from Wikipedia. I went into the raw, bleeding marrow of my own lived experience : documenting the exact customary mechanics of vani and swara, the sham land mutations orchestrated by village patwaris, and the systematic denial of constitutional rights to rural daughters.""",
+
+        """On the morning of the final selection board, the University Syndicate Room was charged with electric tension.
  
-At eleven the following morning, the official results were posted on the department board beneath the university seal. A dense crowd of students pressed against the glass. At the very summit of the list, printed in bold black typography, appeared the verdict :
+At the head of the long mahogany conference table sat five formidable examiners : the Dean of Arts, the Director of the Legal Cell, a visiting representative from the Higher Education Commission in Islamabad, and our own revered department chair, Dr. Masood.
  
-**Selected Candidate : Rija Sajjad (Merit Score : 94 / 100)**  
-**Waiting List Alternate : Umme Rubab (Merit Score : 71 / 100)**
+Umme Rubab was called into the boardroom first.
  
-The news detonated through Aisha Hall like an earthquake. Saba and Sara wrapped their arms around me, weeping with uninhibited joy. For the first time in my life, I felt the intoxicating power of pure, uncompromised intellectual merit.
+She entered with absolute, effortless confidence, her designer silk scarf draped gracefully over her shoulder. She set up an expensive multimedia projector and delivered a polished, twenty-minute presentation filled with colorful bar charts, European sociological jargon, and abstract statistics on 'Gender Parity Paradigms'.
  
-Yet, in an Eastern society, a poor woman's victory over the privileged is never forgiven.
+When she sat down, the visiting legal director smiled politely, but Dr. Masood remained impassive, his fingers tapping rhythmically against his chin.
  
-That evening, as I walked toward the hostel dining hall, Umme Rubab was waiting in the central corridor surrounded by her cabal of wealthy sycophants. Her face was chalky white, distorted by uncontrollable humiliation and venom.
+Then the secretary opened the heavy teak door and called my name : "Candidate Number 14 : Rija Sajjad."
  
-"Congratulations, Rija Bibi!" she announced loudly, her shrill voice echoing off the brick walls so that doors flew open across Block B. "We had no idea your research talents were so exceptional! Tell us, how many late-night sessions did you spend inside Dr. Arshad's private office to earn those ninety-four marks? A destitute village girl does not secure an international salary through textbooks alone. You must have provided some very specialized private services!"
+I stepped into the boardroom.
  
-The filthy accusation struck my ears like boiling lead. Around us, dozens of girls looked on, their faces twisting into perverse, gleeful smirks. My blood turned to ice. I felt an overwhelming urge to tear her lying throat apart, but the terrifying memory of Father's warning and the absolute vulnerability of my position paralyzed my hands. I spun on my heel, fled into Room 42, threw the bolt, and collapsed onto my cot.
+I wore my simple black cotton chador, its edges neatly pressed, carrying only a manila folder containing my handwritten proposal and three certified copies of rural court records from my district.
  
-When a woman's intellectual excellence is answered by smearing her moral character, it is not merely an insult : it is a calculated attempt to assassinate her soul."""
+There were no multimedia slides. There was no theatrical performance.
+ 
+I walked straight to the podium, placed my hands upon the oak rim, looked directly into the eyes of the Islamabad commissioner, and began to speak.""",
+
+        """ "Gentlemen," I began, my voice clear, steady, and vibrating with a quiet, arresting intensity that immediately stilled every pen in the room.
+ 
+"You have just heard a brilliant presentation on statistics compiled by international agencies in Geneva. But statistics do not bleed. Statistics do not weep behind locked storehouse doors.
+ 
+I am not here today to lecture you on theoretical paradigms. I am here to present the living autopsy of customary law in Southern Punjab.
+ 
+In Case Study 7 of my proposal, you will find the verified documentation of a fourteen-year-old girl from Kabirwala whose inheritance was seized by her uncles under the fraudulent legal fiction of 'voluntary renunciation'. In Case Study 12, you will find the certified police report of a panchayat decision that traded an eight-year-old child to settle a water dispute between two landed clans.
+ 
+The Constitution of Pakistan guarantees fundamental equality under Article 25. But that Article does not exist south of the Chenab River. It is suffocated by a conspiracy between feudal landed elites and corrupt district bureaucracies.
+ 
+If this research fellowship is intended merely to generate another leather-bound report to gather dust on an Islamabad shelf, grant it to my distinguished competitor. But if you desire an empirical weapon that will stand up in the Supreme Court of Pakistan and break the chains of our rural daughters, I am ready to conduct that war."
+ 
+For ten seconds after I stopped speaking, you could have heard an eyelash fall upon the mahogany table.
+ 
+The Islamabad commissioner slowly pushed his spectacles up his forehead. The Dean of Arts stared at my handwritten dossier as if he had discovered a lost manuscript.
+ 
+And Dr. Masood, who had not smiled once during the entire morning, leaned back in his leather chair, a slow, radiant grin spreading across his weathered face.""",
+
+        """At four in the afternoon, the official award notification was pinned to the central bulletin board beneath the university seal.
+ 
+A crowd of forty students crushed against the glass to read the single sentence stamped with the Chancellor's seal :
+ 
+*'The HEC-UNDP National Research Fellowship in Political Science is hereby awarded to Candidate 14 : Rija Sajjad, with a merit score of 98.5%.'*
+ 
+A deafening cheer erupted from the students of Block B. Saba burst into tears of joy, while Anza danced an impromptu victory jig right in front of the department foyer.
+ 
+At the far end of the corridor, Umme Rubab stood frozen.
+ 
+Her face was a mask of pale, murderous humiliation. She crumpled her presentation folder in her manicured fists, turned her venomous gaze directly upon me, and hissed loud enough for the entire hallway to hear :
+ 
+"You think you have won, village beggar? You have no idea what family power means in this province. I will see you stripped of that grant and expelled from this campus before your first semester ends."
+ 
+I looked at her with calm, steady pity.
+ 
+"You have the power of your father's telephone, Umme Rubab," I answered softly, so only she could hear. "I have the power of truth and my mother's prayers. Let us see which one endures."
+ 
+That afternoon, the battle lines of my university life were drawn. I had won the fellowship, but I had unlocked a hornet's nest of elite malice that would soon threaten to consume my honor, my family, and my very survival."""
     ]
 })
 
-print(f"Season 1 Episodes 1 to 5 generated in English. Generating 6 to 10...")
+print(f"Season 1 Part 1 Deep Expanded (Episodes 01 to 05) in English successfully generated! Count: {len(S1_EN_EPISODES)}")

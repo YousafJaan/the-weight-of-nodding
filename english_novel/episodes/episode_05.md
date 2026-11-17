@@ -1,57 +1,98 @@
 # Episode 05: The HEC Research Merit
-### The Notice Board, The Feudal Heiress, and The Battle for the Assistantship
+### The Bureaucrat's Daughter, The Candlelit Proposal, and The Boardroom Duel
 
-**Season 1 : The Sanctuary and the Iron Gate** | Words: 1,114
+**Season 1 : The Sanctuary and the Iron Gate** | Words: 1,334
 
-> **Synopsis:** Facing severe financial hardship, Rija competes for a prestigious Higher Education Commission research position, triggering the bitter, vindictive wrath of Umme Rubab, a powerful and privileged senior student.
+> **Synopsis:** When a prestigious national research grant is announced, Rija challenges the wealthy, connected hostel elite Umme Rubab before the university selection board, igniting a bitter war of academic jealousy.
 
 ---
 
-By the onset of my third semester, the meager financial reserves Father had provided were completely exhausted. The cost of photocopied syllabi, research monographs, and daily necessities had devoured every rupee. When I called home from the public telephone booth near the university bank, Father's response was curt and devastating : "Crop yields this season have failed, Rija. Cotton prices have collapsed. If you cannot manage your expenses, pack your trunk and return home. A daughter's education cannot take precedence over feeding the household."
+In the spring of our first academic year, a massive, gold-embossed notification appeared upon the central noticeboard outside the Department of Political Science.
  
-The threat of eviction hung over my head like an executioner's blade. It was precisely at this desperate juncture that a white, stamped official circular appeared upon the glass-encased notice board outside the Department of Political Science.
+The Higher Education Commission of Pakistan, in collaboration with the United Nations Development Programme, had announced a single, prestigious National Research Fellowship for Southern Punjab.
  
-The Higher Education Commission, in partnership with an international development consortium, was funding a high-profile empirical research initiative entitled : *'Tribal Customary Panchayats and the Denial of Statutory Inheritance Rights to Rural Women in Southern Punjab.'*
+The fellowship carried a full tuition waiver, a monthly stipend of ten thousand rupees, and the exclusive mandate to conduct empirical research on 'Constitutional Safeguards vs Customary Feudal Tribal Practices in Rural Punjab'.
  
-The project had a single opening for a 'Junior Research Assistant', carrying a monthly stipend of thirty-five thousand rupees : an astronomical sum that represented not merely financial survival, but total liberation from the humiliating necessity of begging Father for pocket money. It was the key to my academic sovereignty.
+For an impoverished student like me, whose daily existence was a precarious balancing act of counting bus coins and borrowing second-hand library books, that fellowship was not merely an academic prize : it was a lifeline to intellectual freedom.
  
-However, across the corridors of Aisha Hall, the position was already considered the exclusive, pre-ordained property of Umme Rubab.
+Within forty-eight hours, the department was buzzing with excitement. But among the forty applicants who submitted their preliminary dossiers, one name cast a long, intimidating shadow over the entire university : Umme Rubab.
  
-Umme Rubab was a senior graduate student whose family owned sprawling agricultural lands along the Chenab river and maintained powerful political connections in Lahore. She arrived at the department every morning in a gleaming red sedan, wore imported designer lawn suits that trailed expensive French perfume through the dusty corridors, and maintained an entourage of sycophantic junior girls who carried her files. Her paternal uncle was a personal confidant of the University Vice-Chancellor.
+Umme Rubab was the undisputed queen of Aisha Hall's elite wing.
  
-Two days before the scheduled interviews, Umme Rubab cornered me outside the departmental seminar library. Her painted lips curled into a patronizing, razor-sharp smile.
+Her father was an Additional Chief Secretary in the provincial civil service, a man whose phone call could transfer professors and sanction departmental budgets. She arrived at the university in a chauffeur-driven white Honda Civic, wore designer linen joras, and possessed a private room with an illegal split air-conditioner that the wardens pretended not to notice.
  
-"Listen to me, Rija," she said, tapping her manicured red nails against her leather folder. "You are embarrassing yourself by submitting an application for this assistantship. Dr. Arshad has been a house guest at our Multan residence for a decade. Positions of this caliber are designed for candidates with social pedigree and global polish, not for provincial hostelites who buy second-hand shoes from the bazaar. Go back to your dorm and prepare for your regular coursework."
- 
-The raw, casual arrogance in her voice was breathtaking. It was the generational entitlement of the landed gentry who believe that intellectual merit, like river canal water, can be diverted into their private estates through bribery and political coercion.
- 
-I tightened my grip on the strap of my frayed shoulder bag and looked directly into her dark, mascara-rimmed eyes.
- 
-"Umme Rubab," I replied evenly, keeping my voice low and steady. "Knowledge and sustenance are not inherited family jagirs. If my Lord has written this research appointment in my destiny, all the political uncles of Multan cannot tear it from my hands. We will let the selection board decide on Friday."
- 
-She recoiled slightly, her eyes narrowing into cold slits of hatred. "You will regret this insolence, village girl," she hissed, turning on her designer heels and marching away.
+To Umme Rubab and her clique of wealthy sycophants, the HEC Fellowship was an ornamental accessory, a trophy to be displayed on her CV before an arranged marriage to a foreign diplomat.
 
-On Friday morning, the air inside the Dean's Conference Room was thick with academic tension. The selection panel was formidable : the Head of Department Dr. Arshad, an external constitutional expert from Punjab University, and a senior British project representative named Dr. Julian Evans.
+"Why is that barefoot village girl even standing in the application queue?" Umme Rubab's loud, mocking laugh rang across the department canteen one afternoon, loud enough for half the faculty to hear.
  
-When my name was summoned, I entered wearing my plain white cotton suit and a modest black headscarf. I had spent the preceding two weeks staying awake until four in the morning, compiling fifty pages of primary field interviews conducted in the rural outposts of Muzaffargarh and Rajanpur, detailing the clandestine practice of *Haq Bakhshwana* : the coerced ritual where young rural women are forced to swear an oath upon the Holy Quran renouncing their inheritance rights in favor of their brothers.
+She was seated with three of her wealthy hostel friends, sipping cold coffee from imported glass bottles.
  
-Dr. Arshad opened the interview with a barrage of skeptical, aggressive inquiries, attempting to trip me up on statistical modeling and theoretical paradigms. But when I presented my primary field documentation : complete with court case citations, village revenue settlement maps, and translated testimonies of disinherited sisters : Dr. Evans took off his reading glasses and leaned forward over the mahogany conference table.
+"Her father probably signed her admission forms with a thumb impression," Umme Rubab sneered, tossing her designer leather bag onto the table. "Research requires sophisticated theoretical frameworks and English prose, not the dialect of wheat harvesters. She should save her bus fare and buy herself a sewing machine."
  
-"Remarkable," Dr. Evans remarked, examining my handwritten charts. "Miss Rija, this is not mere theoretical regurgitation. You have captured the living, bleeding reality of Southern Punjab's agrarian patriarchy. This is precisely the empirical rigor this international consortium requires."
+The canteen erupted in sycophantic giggles.
  
-The interview lasted forty-five minutes. When I emerged into the courtyard, the afternoon sun felt warm and benevolent upon my face.
+I sat three tables away, working through a battered, library-loaned copy of Arend Lijphart's *Democracies*.
  
-At eleven the following morning, the official results were posted on the department board beneath the university seal. A dense crowd of students pressed against the glass. At the very summit of the list, printed in bold black typography, appeared the verdict : **Selected Candidate : Rija Sajjad (Merit Score : 94 / 100)** 
-**Waiting List Alternate : Umme Rubab (Merit Score : 71 / 100)**
+My knuckles turned white against the wooden table, but I did not look up. I did not yell, I did not cry, and I did not engage in the cheap theater of cafeteria insults.
  
-The news detonated through Aisha Hall like an earthquake. Saba and Sara wrapped their arms around me, weeping with uninhibited joy. For the first time in my life, I felt the intoxicating power of pure, uncompromised intellectual merit.
+Instead, I remembered my mother's words : *When the dogs of the village bark at your ankles, do not stoop to throw stones; climb the mountain until their barking sounds like the whisper of dry grass.*
  
-Yet, in an Eastern society, a poor woman's victory over the privileged is never forgiven.
+For seventy-two consecutive hours leading up to the final selection board, while Umme Rubab attended society dinners and held court in the hostel common room, Room 42 became an intellectual battle station.
  
-That evening, as I walked toward the hostel dining hall, Umme Rubab was waiting in the central corridor surrounded by her cabal of wealthy sycophants. Her face was chalky white, distorted by uncontrollable humiliation and venom.
+By the flickering yellow light of a wax candle, with Sara correcting my English syntax and Anza sharpening my philosophical arguments, I wrote my seventy-page research prospectus.
  
-"Congratulations, Rija Bibi!" she announced loudly, her shrill voice echoing off the brick walls so that doors flew open across Block B. "We had no idea your research talents were so exceptional! Tell us, how many late-night sessions did you spend inside Dr. Arshad's private office to earn those ninety-four marks? A destitute village girl does not secure an international salary through textbooks alone. You must have provided some very specialized private services!"
+I did not rely on sterile, Western textbook theories copied from Wikipedia. I went into the raw, bleeding marrow of my own lived experience : documenting the exact customary mechanics of vani and swara, the sham land mutations orchestrated by village patwaris, and the systematic denial of constitutional rights to rural daughters.
+
+On the morning of the final selection board, the University Syndicate Room was charged with electric tension.
  
-The filthy accusation struck my ears like boiling lead. Around us, dozens of girls looked on, their faces twisting into perverse, gleeful smirks. My blood turned to ice. I felt an overwhelming urge to tear her lying throat apart, but the terrifying memory of Father's warning and the absolute vulnerability of my position paralyzed my hands. I spun on my heel, fled into Room 42, threw the bolt, and collapsed onto my cot.
+At the head of the long mahogany conference table sat five formidable examiners : the Dean of Arts, the Director of the Legal Cell, a visiting representative from the Higher Education Commission in Islamabad, and our own revered department chair, Dr. Masood.
  
-When a woman's intellectual excellence is answered by smearing her moral character, it is not merely an insult : it is a calculated attempt to assassinate her soul.
+Umme Rubab was called into the boardroom first.
+ 
+She entered with absolute, effortless confidence, her designer silk scarf draped gracefully over her shoulder. She set up an expensive multimedia projector and delivered a polished, twenty-minute presentation filled with colorful bar charts, European sociological jargon, and abstract statistics on 'Gender Parity Paradigms'.
+ 
+When she sat down, the visiting legal director smiled politely, but Dr. Masood remained impassive, his fingers tapping rhythmically against his chin.
+ 
+Then the secretary opened the heavy teak door and called my name : "Candidate Number 14 : Rija Sajjad."
+ 
+I stepped into the boardroom.
+ 
+I wore my simple black cotton chador, its edges neatly pressed, carrying only a manila folder containing my handwritten proposal and three certified copies of rural court records from my district.
+ 
+There were no multimedia slides. There was no theatrical performance.
+ 
+I walked straight to the podium, placed my hands upon the oak rim, looked directly into the eyes of the Islamabad commissioner, and began to speak.
+
+"Gentlemen," I began, my voice clear, steady, and vibrating with a quiet, arresting intensity that immediately stilled every pen in the room.
+ 
+"You have just heard a brilliant presentation on statistics compiled by international agencies in Geneva. But statistics do not bleed. Statistics do not weep behind locked storehouse doors.
+ 
+I am not here today to lecture you on theoretical paradigms. I am here to present the living autopsy of customary law in Southern Punjab.
+ 
+In Case Study 7 of my proposal, you will find the verified documentation of a fourteen-year-old girl from Kabirwala whose inheritance was seized by her uncles under the fraudulent legal fiction of 'voluntary renunciation'. In Case Study 12, you will find the certified police report of a panchayat decision that traded an eight-year-old child to settle a water dispute between two landed clans.
+ 
+The Constitution of Pakistan guarantees fundamental equality under Article 25. But that Article does not exist south of the Chenab River. It is suffocated by a conspiracy between feudal landed elites and corrupt district bureaucracies.
+ 
+If this research fellowship is intended merely to generate another leather-bound report to gather dust on an Islamabad shelf, grant it to my distinguished competitor. But if you desire an empirical weapon that will stand up in the Supreme Court of Pakistan and break the chains of our rural daughters, I am ready to conduct that war."
+ 
+For ten seconds after I stopped speaking, you could have heard an eyelash fall upon the mahogany table.
+ 
+The Islamabad commissioner slowly pushed his spectacles up his forehead. The Dean of Arts stared at my handwritten dossier as if he had discovered a lost manuscript.
+ 
+And Dr. Masood, who had not smiled once during the entire morning, leaned back in his leather chair, a slow, radiant grin spreading across his weathered face.
+
+At four in the afternoon, the official award notification was pinned to the central bulletin board beneath the university seal.
+ 
+A crowd of forty students crushed against the glass to read the single sentence stamped with the Chancellor's seal : *'The HEC-UNDP National Research Fellowship in Political Science is hereby awarded to Candidate 14 : Rija Sajjad, with a merit score of 98.5%.'*
+ 
+A deafening cheer erupted from the students of Block B. Saba burst into tears of joy, while Anza danced an impromptu victory jig right in front of the department foyer.
+ 
+At the far end of the corridor, Umme Rubab stood frozen.
+ 
+Her face was a mask of pale, murderous humiliation. She crumpled her presentation folder in her manicured fists, turned her venomous gaze directly upon me, and hissed loud enough for the entire hallway to hear : "You think you have won, village beggar? You have no idea what family power means in this province. I will see you stripped of that grant and expelled from this campus before your first semester ends."
+ 
+I looked at her with calm, steady pity.
+ 
+"You have the power of your father's telephone, Umme Rubab," I answered softly, so only she could hear. "I have the power of truth and my mother's prayers. Let us see which one endures."
+ 
+That afternoon, the battle lines of my university life were drawn. I had won the fellowship, but I had unlocked a hornet's nest of elite malice that would soon threaten to consume my honor, my family, and my very survival.

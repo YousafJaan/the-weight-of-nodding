@@ -96,6 +96,19 @@
     body[data-size="lg"] .reading-content { font-size: 23px; line-height: 2.5; }
     body[data-size="xl"] .reading-content { font-size: 26px; line-height: 2.7; }
 
+    /* Layout variations */
+    body[data-layout="two-col"] .reading-content {
+      column-count: 2;
+      column-gap: 40px;
+      column-rule: 1px solid var(--border-light);
+      text-align: justify;
+    }
+    @media (max-width: 820px) {
+      body[data-layout="two-col"] .reading-content {
+        column-count: 1;
+      }
+    }
+
     /* Progress bar */
     #progress-bar-container {
       position: fixed;
@@ -414,11 +427,11 @@
       margin-bottom: 8px;
       display: block;
     }
-    .theme-buttons, .size-buttons {
+    .theme-buttons, .size-buttons, .layout-buttons {
       display: flex;
       gap: 6px;
     }
-    .theme-btn, .size-btn {
+    .theme-btn, .size-btn, .layout-btn {
       flex: 1;
       padding: 6px 0;
       text-align: center;
@@ -430,7 +443,7 @@
       font-family: var(--font-ui);
       cursor: pointer;
     }
-    .theme-btn.active, .size-btn.active {
+    .theme-btn.active, .size-btn.active, .layout-btn.active {
       background: var(--accent);
       color: #fff;
       border-color: var(--accent);
@@ -523,6 +536,13 @@
       </div>
     </div>
     <div class="settings-group">
+      <span class="settings-label">طرزِ مطالعہ (Reading Layout)</span>
+      <div class="layout-buttons">
+        <button class="layout-btn active" data-layout="single">ایک کالم</button>
+        <button class="layout-btn" data-layout="two-col">دو کالم (ڈائجسٹ)</button>
+      </div>
+    </div>
+    <div class="settings-group">
       <span class="settings-label">فونٹ کا سائز (Font Size)</span>
       <div class="size-buttons">
         <button class="size-btn" data-size="sm">چھوٹا</button>
@@ -582,13 +602,17 @@
     <div class="download-strip">
       <div class="dl-label">مکمل کتاب ڈاؤن لوڈ کریں:</div>
       <div class="dl-buttons">
-        <a href="Rija_Ek_Beti_Ki_Sachi_Aap_Beeti_Complete_Edition.docx" class="dl-pill" download>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          <span>Word فائل (.docx)</span>
-        </a>
         <a href="Rija_Ek_Beti_Ki_Sachi_Aap_Beeti_Complete_Edition.pdf" class="dl-pill" download>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          <span>PDF فائل</span>
+          <span>PDF ایڈیشن (178 صفحات)</span>
+        </a>
+        <a href="Rija_Ek_Beti_Ki_Sachi_Aap_Beeti_Complete_Edition.docx" class="dl-pill" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Word مینو اسکرپٹ (.docx)</span>
+        </a>
+        <a href="RIJA_COMPLETE_EPISODIC_NOVEL.md" class="dl-pill" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>مارک ڈاؤن مسودہ (.md)</span>
         </a>
       </div>
     </div>
@@ -752,6 +776,17 @@
       });
     });
 
+    // Layout Switchers
+    document.querySelectorAll('.layout-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.layout-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const layout = btn.dataset.layout;
+        document.body.dataset.layout = layout;
+        localStorage.setItem('rija_layout', layout);
+      });
+    });
+
     // Navigation buttons
     prevEpBtn.addEventListener('click', () => {
       if (currentEpisodeIndex > 0) loadEpisode(currentEpisodeIndex - 1);
@@ -773,12 +808,15 @@
     const savedEp = parseInt(localStorage.getItem('rija_current_ep') || '0', 10);
     const savedTheme = localStorage.getItem('rija_theme') || 'sepia';
     const savedSize = localStorage.getItem('rija_font_size') || 'md';
+    const savedLayout = localStorage.getItem('rija_layout') || 'single';
 
     document.body.dataset.theme = savedTheme;
     document.body.dataset.size = savedSize;
+    document.body.dataset.layout = savedLayout;
 
     document.querySelectorAll('.theme-btn').forEach(b => b.classList.toggle('active', b.dataset.theme === savedTheme));
     document.querySelectorAll('.size-btn').forEach(b => b.classList.toggle('active', b.dataset.size === savedSize));
+    document.querySelectorAll('.layout-btn').forEach(b => b.classList.toggle('active', b.dataset.layout === savedLayout));
 
     renderTOC();
     loadEpisode(savedEp);
